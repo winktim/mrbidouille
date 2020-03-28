@@ -1,0 +1,46 @@
+@import './components.scss';
+
+.marked {
+  h1 {
+    @apply font-heading text-white text-5xl text-center;
+  }
+
+  h2 {
+    @apply font-heading text-blue-200 text-4xl;
+  }
+
+  h3 {
+    @apply font-heading text-gray-300 text-3xl;
+  }
+
+  p {
+    @apply mb-4 leading-relaxed;
+  }
+
+  figure {
+    @apply flex flex-col items-center mb-4;
+
+    > img {
+      @apply max-w-full rounded-md mb-2;
+    }
+
+    > caption {
+      @apply italic block;
+    }
+  }
+
+  a {
+    @apply underline text-blue-200;
+
+    &:hover {
+      @apply text-blue-300;
+    }
+  }
+
+  ul {
+    @apply mb-4;
+    li {
+      @apply ml-4;
+    }
+  }
+}

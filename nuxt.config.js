@@ -1,0 +1,82 @@
+import path from 'path'
+import glob from 'glob-all'
+
+const features = ['es2015', 'es2016', 'IntersectionObserver'].join('%2C')
+
+export default {
+  mode: 'universal',
+  /*
+   ** Headers of the page
+   */
+  head: {
+    title: 'Mr. Bidouille',
+    htmlAttrs: {
+      lang: 'en',
+    },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { 'http-equiv': 'X-UA-Compatible', 'content': 'ie=edge' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Tech and Hack blog about real cars and simulated ones, coming to you from the cheesy mountains of Switzerland',
+      },
+      { hid: 'theme-color', name: 'theme-color', content: '#212121' },
+    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        src: `https://polyfill.io/v3/polyfill.min.js?features=${features}`,
+        body: true,
+      },
+    ],
+  },
+  /*
+   ** Customize the progress-bar color
+   */
+  loading: { color: '#333' },
+  /*
+   ** Global CSS
+   */
+  css: [
+    '~/assets/scss/tailwind.scss',
+    '~/assets/scss/icons.scss',
+    '~/assets/scss/components.scss',
+    '~/assets/scss/fonts.scss',
+    '~/assets/scss/reset.scss',
+    '~/assets/scss/marked.scss',
+  ],
+
+  /*
+   ** Nuxt.js modules
+   */
+  modules: ['nuxt-purgecss'],
+
+  purgeCSS: {
+    paths: glob.sync([
+      path.join(__dirname, './pages/**/*.vue'),
+      path.join(__dirname, './layouts/**/*.vue'),
+      path.join(__dirname, './components/**/*.vue'),
+    ]),
+    // whitelist: ['nuxt-link-exact-active'],
+    whitelistPatternsChildren: [/marked$/],
+  },
+
+  /*
+   ** Build configuration
+   */
+  build: {
+    extractCSS: true,
+    postcss: {
+      plugins: {
+        tailwindcss: './tailwind.config.js',
+      },
+    },
+    /*
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {},
+  },
+}
