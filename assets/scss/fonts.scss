@@ -1,11 +1,23 @@
-/*
 @font-face {
-  font-family: 'Staatliches';
+  font-family: 'Maven Pro';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900; // black
   font-display: swap;
-  src: local('Staatliches Regular'), local('Staatliches-Regular'),
-    url(/fonts/Staatliches-Regular.woff2) format('woff2'),
-    url(/fonts/Staatliches-Regular.woff) format('woff');
+  src: url(/fonts/Maven-Pro.woff2) format('woff2');
 }
-*/
+
+@font-face {
+  font-family: 'Sansation';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url(/fonts/Sansation.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Sansation';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url(/fonts/Sansation-Bold.woff2) format('woff2');
+}

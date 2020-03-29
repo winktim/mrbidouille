@@ -10,6 +10,15 @@ module.exports = {
       ...theme('spacing'),
       ...negative(theme('spacing')),
     }),
+    rotation: {
+      'none': '0deg',
+      '-4': '-4deg',
+      '-8': '-8deg',
+      '4': '4deg',
+      '45': '45deg',
+      '90': '90deg',
+      '180': '180deg',
+    },
     transitionDurations: {
       100: '100ms',
       150: '150ms',
@@ -34,19 +43,28 @@ module.exports = {
         '15': '3.75rem',
       },
       height: {
+        '14': '3.5rem',
+        '50': '12.5rem',
         '76': '19rem',
         '100': '25rem',
       },
+      padding: {
+        '14': '3.5rem',
+      },
+      margin: {
+        '-8': '-2rem',
+      },
       width: {
+        '1/2-fake': '45%',
         '72': '18rem',
-        '168': '42rem',
+        '150': '37.5rem',
       },
       maxHeight: {
         'screen-20': 'calc(100vh - 5rem)',
       },
       fontFamily: {
-        content: ['Raleway', 'sans-serif'],
-        heading: ['Staatliches', 'sans-serif'],
+        content: ['Sansation', 'sans-serif'],
+        heading: ['Maven Pro', 'sans-serif'],
       },
       borderRadius: {
         md: '0.3rem',
@@ -60,6 +78,25 @@ module.exports = {
       boxShadow: {
         'lg-side':
           '10px 0 15px -3px rgba(0, 0, 0, 0.1), 4px 0px 6px -2px rgba(0, 0, 0, 0.05)',
+      },
+      colors: {
+        gray: {
+          100: '#F5F5F5',
+          200: '#EEEEEE',
+          300: '#E0E0E0',
+          400: '#BDBDBD',
+          500: '#9E9E9E',
+          600: '#757575',
+          700: '#616161',
+          800: '#424242',
+          900: '#212121',
+        },
+        bid: {
+          'magenta': '#B62C6D',
+          'dark-magenta': '#602658',
+          'pink': '#A748A6',
+          'violet': '#A661C9',
+        },
       },
     },
   },
@@ -79,6 +116,22 @@ module.exports = {
           },
           [`.${e(`translate-z-${key}`)}`]: {
             transform: `translateZ(${value})`,
+          },
+        }
+      })
+
+      addUtilities(utilities, {
+        variants: ['responsive'],
+      })
+    },
+    /**
+     * Rotate plugin
+     */
+    function({ addUtilities, addComponents, e, prefix, config }) {
+      const utilities = _.map(config('theme.rotation'), (value, key) => {
+        return {
+          [`.${e(`rotate-${key}`)}`]: {
+            transform: `rotate(${value})`,
           },
         }
       })

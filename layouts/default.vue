@@ -1,12 +1,10 @@
 <template>
   <div
     ref="scroller"
-    class="bg-gray-900 font-content w-screen h-screen overflow-x-hidden"
+    class="relative bg-gray-900 font-content w-screen h-screen overflow-x-hidden"
   >
     <appbar></appbar>
-    <main class="flex-grow text-gray-100 px-6 md:px-16 lg:px-32 xl:px-56">
-      <nuxt />
-    </main>
+    <nuxt />
   </div>
 </template>
 <script>
