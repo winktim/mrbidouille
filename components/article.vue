@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link :to="link" class="max-w-full w-150">
+  <nuxt-link :to="link" class="max-w-full w-150" :aria-label="title">
     <article class="w-full">
       <div class="flex items-center justify-between">
         <span v-text="date"></span>
