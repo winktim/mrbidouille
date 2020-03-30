@@ -1,5 +1,5 @@
 <template>
-  <div
+  <header
     class="select-none flex items-center font-heading w-full h-14 bid-gradient text-gray-100 shadow-2xl"
   >
     <nuxt-link
@@ -21,5 +21,5 @@
       class="material-icons text-2xl p-4 text-gray-300 hover:text-gray-100 transition-color-150"
       >info</nuxt-link
     >
-  </div>
+  </header>
 </template>

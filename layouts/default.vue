@@ -5,15 +5,18 @@
   >
     <appbar></appbar>
     <nuxt />
+    <appfooter></appfooter>
   </div>
 </template>
 <script>
 import Appbar from '../components/appbar.vue'
+import Appfooter from '../components/appfooter.vue'
 import { scrollToTop } from '../assets/utils'
 
 export default {
   components: {
     Appbar,
+    Appfooter,
   },
   watch: {
     $route() {
