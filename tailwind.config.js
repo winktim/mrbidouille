@@ -35,6 +35,7 @@ module.exports = {
       'background': 'background',
     },
     colorVariations: {
+      none: 0,
       5: 5,
       10: 10,
     },

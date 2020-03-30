@@ -47,6 +47,26 @@
   @apply text-bid-pink underline;
 
   &:hover {
-    filter: brightness(110%);
+    @apply lighten-10;
+  }
+}
+
+.article-list {
+  display: none;
+}
+
+.article-radio:checked {
+  & ~ .article-list {
+    display: flex;
+  }
+
+  & + .article-label {
+    > label {
+      @apply bg-gray-100 text-gray-900;
+
+      &:hover {
+        @apply lighten-none;
+      }
+    }
   }
 }

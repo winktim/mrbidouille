@@ -1,8 +1,8 @@
 <template>
   <main>
     <section class="px-6 md:px-16 lg:px-32 xl:px-56 mt-4 mb-12 flex flex-col">
-      <h2 class="text-xl font-bold">
-        All there is to know about my blog
+      <h2 class="text-center text-2xl">
+        All there is to know about my blog<br class="md:hidden" />
         <span class="text-sm">(not much)</span>
       </h2>
       <div
@@ -10,7 +10,7 @@
         style="background-image: url(/images/about.jpg);"
       ></div>
 
-      <h3 class="text-lg font-bold mt-4">
+      <h3 class="text-xl font-bold mt-4">
         In English first
         <a class="nice-link" href="#fr">(français en dessous)</a>
       </h3>
@@ -49,7 +49,7 @@
         a mail at <hiddenmail class="nice-link"></hiddenmail>.
       </p>
 
-      <h4 class="mt-2 font-bold">Stickers !</h4>
+      <h4 class="mt-2 text-lg font-bold">Stickers !</h4>
 
       <p class="my-2">
         I have stickers, that you can obtain by meeting with me, or when buying
@@ -57,7 +57,7 @@
         I would be touched if you decided on using them :)
       </p>
 
-      <h4 class="mt-2 font-bold">Some formalities</h4>
+      <h4 class="mt-2 text-lg font-bold">Some formalities</h4>
 
       <p class="my-2">
         For my own protection, I have to say that whatever information you find
@@ -70,7 +70,7 @@
         depends on it.
       </p>
 
-      <h3 id="fr" class="text-lg font-bold mt-4">Et maintenant en français</h3>
+      <h3 id="fr" class="text-xl font-bold mt-4">Et maintenant en français</h3>
 
       <p class="my-2">
         Hey, merci de prendre le temps de visiter mon blog !<br />
@@ -103,7 +103,7 @@
         <hiddenmail class="nice-link"></hiddenmail>.
       </p>
 
-      <h4 class="mt-2 font-bold">Stickers !</h4>
+      <h4 class="mt-2 text-lg font-bold">Stickers !</h4>
 
       <p class="my-2">
         J'ai des stickers, que vous pouvez obtenir en me rencontrant, ou en
@@ -111,7 +111,7 @@
         Je serais touché si vous décidiez de les utiliser :)
       </p>
 
-      <h4 class="mt-2 font-bold">Quelques formalitées</h4>
+      <h4 class="mt-2 text-lg font-bold">Quelques formalitées</h4>
 
       <p class="my-2">
         Pour ma propre protection, je dois mentionner que les informations que
@@ -121,7 +121,7 @@
         Votre sécurité doit toujours être prioritaire lorsque vous travaillez
         sur un véhicule ou avec de l'électronique. En cas de doutes, demandez
         toujours l'aide d'un professionel.<br />
-        Je ne supporte pas la conduite dangereuse sur routes publiques. Suivez
+        Je n'encourage pas la conduite dangereuse sur routes publiques. Suivez
         toujours les règles de la circulation et essayez de ne pas faire de
         conneries. En tant que communautée, notre image en dépend.
       </p>
