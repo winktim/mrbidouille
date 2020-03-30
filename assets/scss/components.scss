@@ -38,3 +38,15 @@
     theme('colors.bid.violet')
   );
 }
+
+.min-h-content {
+  min-height: calc(100vh - theme('height.14'));
+}
+
+.nice-link {
+  @apply text-bid-pink underline;
+
+  &:hover {
+    filter: brightness(110%);
+  }
+}

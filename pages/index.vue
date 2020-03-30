@@ -1,5 +1,5 @@
 <template>
-  <main class="flex-grow text-gray-100">
+  <main>
     <div
       class="select-none pointer-events-none absolute top-0 left-0 pt-10 w-full z-10 overflow-hidden"
     >
@@ -57,7 +57,7 @@
   </main>
 </template>
 <script>
-import ArticlePreview from '../components/article'
+import ArticlePreview from '../components/articlepreview'
 export default {
   components: { ArticlePreview },
   computed: {

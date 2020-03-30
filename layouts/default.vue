@@ -4,7 +4,7 @@
     class="relative bg-gray-900 font-content w-screen h-screen overflow-x-hidden"
   >
     <appbar></appbar>
-    <nuxt />
+    <nuxt class="flex flex-col text-gray-100 min-h-content" />
     <appfooter></appfooter>
   </div>
 </template>

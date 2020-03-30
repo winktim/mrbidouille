@@ -6,11 +6,11 @@
       <span>&copy; 2020 Mr. Bidouille - All rights reserved.</span>
       <span class="mx-1">I am not a professional.</span>
       <span>
-        No garanty is given for the information I provide, use it at your own
+        No guaranty is given for the information I provide, use it at your own
         risk.
       </span>
       <span class="ml-1"
-        >Contact: <hiddenmail class="text-bid-pink"></hiddenmail
+        >Contact: <hiddenmail class="nice-link"></hiddenmail
       ></span>
     </p>
   </footer>
