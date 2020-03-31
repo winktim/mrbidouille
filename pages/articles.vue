@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="w-full px-6 md:px-16 lg:px-32 xl:px-56 mt-4">
+    <section class="w-full px-6 md:px-16 lg:px-32 xl:px-56 mt-4 mb-12">
       <h2 class="text-center text-2xl">All articles</h2>
       <p class="text-center">
         Filter articles by written language.<br />
