@@ -10,6 +10,34 @@
       <!-- clever css hack to display a div based on the radio selected as well as style the relevant label -->
       <!-- buttons for switching language are relocated at the top of this div -->
       <div class="relative mt-4 pt-16">
+        <div class="flex justify-center">
+          <label
+            for="search"
+            class="flex items-center border-solid border-gray-100 border-b w-150 max-w-full"
+          >
+            <i class="material-icons text-xl">search</i>
+
+            <input
+              class="p-4 lg:p-2 bg-transparent flex-grow"
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Search in the pile"
+              v-model.trim="search"
+            />
+            <noscript>(The search feature requires JavaScript)</noscript>
+            <i
+              :class="[
+                'cursor-pointer',
+                'material-icons',
+                'text-xl',
+                search === '' ? 'hidden' : 'block',
+              ]"
+              @click="search = ''"
+              >backspace</i
+            >
+          </label>
+        </div>
         <!-- english -->
         <div>
           <input
@@ -94,13 +122,20 @@
 </template>
 <script>
 import ArticlePreview from '../components/articlepreview'
+import { filterArticles } from '../assets/utils'
+
 export default {
   components: { ArticlePreview },
+  data() {
+    return {
+      search: '',
+    }
+  },
   computed: {
     en() {
-      return [
+      const allEn = [
         {
-          date: '2019-03-20',
+          date: '2019-10-02',
           tags: ['en', 'mod'],
           reactions: 2,
           img: '/images/test.jpg',
@@ -124,15 +159,17 @@ export default {
           tags: ['en', 'mod'],
           reactions: 10,
           img: '/images/test.jpg',
-          title: 'And another one',
+          title: 'One another',
           summary:
             "This is the beginning of a the article, you won't believe what...",
           link: '/en/test',
         },
       ]
+
+      return filterArticles(allEn, this.search)
     },
     fr() {
-      return [
+      const allFr = [
         {
           date: '2012-01-20',
           tags: ['fr', 'mod'],
@@ -173,6 +210,8 @@ export default {
           link: '/en/test',
         },
       ]
+
+      return filterArticles(allFr, this.search)
     },
   },
 }
