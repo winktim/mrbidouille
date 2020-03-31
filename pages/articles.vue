@@ -123,6 +123,7 @@
 <script>
 import ArticlePreview from '../components/articlepreview'
 import { filterArticles } from '../assets/utils'
+import articles from '../assets/articles'
 
 export default {
   components: { ArticlePreview },
@@ -133,85 +134,10 @@ export default {
   },
   computed: {
     en() {
-      const allEn = [
-        {
-          date: '2019-10-02',
-          tags: ['en', 'mod'],
-          reactions: 2,
-          img: '/images/test.jpg',
-          title: 'Such a good article ma boi',
-          summary:
-            "This is the beginning of a the article, you won't believe what...",
-          link: '/en/test',
-        },
-        {
-          date: '2019-02-10',
-          tags: ['en'],
-          reactions: 1,
-          img: '/images/test.jpg',
-          title: 'Another one',
-          summary:
-            "This is the beginning of a the article, you won't believe what...",
-          link: '/en/test',
-        },
-        {
-          date: '2012-12-01',
-          tags: ['en', 'mod'],
-          reactions: 10,
-          img: '/images/test.jpg',
-          title: 'One another',
-          summary:
-            "This is the beginning of a the article, you won't believe what...",
-          link: '/en/test',
-        },
-      ]
-
-      return filterArticles(allEn, this.search)
+      return filterArticles(articles.en, this.search)
     },
     fr() {
-      const allFr = [
-        {
-          date: '2012-01-20',
-          tags: ['fr', 'mod'],
-          reactions: 14,
-          img: '/images/test.jpg',
-          title: 'A dieu ça va le chalet ou bien',
-          summary: 'Ah ouais quand même faut un peu changer cte merde là...',
-          link: '/en/test',
-        },
-        {
-          date: '2019-02-10',
-          tags: ['fr'],
-          reactions: 1,
-          img: '/images/test.jpg',
-          title: 'A de dieu ça chleingue',
-          summary:
-            "This is the beginning of a the article, you won't believe what...",
-          link: '/en/test',
-        },
-        {
-          date: '2012-12-01',
-          tags: ['fr', 'mod'],
-          reactions: 10,
-          img: '/images/test.jpg',
-          title: 'Regarde moi ce bobet',
-          summary:
-            "This is the beginning of a the article, you won't believe what...",
-          link: '/en/test',
-        },
-        {
-          date: '2020-01-01',
-          tags: ['fr'],
-          reactions: 3,
-          img: '/images/test.jpg',
-          title: "Mais c'que ça peut roiller",
-          summary:
-            "This is the beginning of a the article, you won't believe what...",
-          link: '/en/test',
-        },
-      ]
-
-      return filterArticles(allFr, this.search)
+      return filterArticles(articles.fr, this.search)
     },
   },
 }

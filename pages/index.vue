@@ -58,52 +58,16 @@
 </template>
 <script>
 import ArticlePreview from '../components/articlepreview'
+import articles from '../assets/articles'
+
 export default {
   components: { ArticlePreview },
   computed: {
     latestArticles() {
-      return [
-        {
-          date: '2019-03-20',
-          tags: ['en', 'mod'],
-          reactions: 2,
-          img: '/images/test.jpg',
-          title: 'Such a good article ma boi',
-          summary:
-            "This is the beginning of a the article, you won't believe what...",
-          link: '/en/test',
-        },
-        {
-          date: '2019-02-10',
-          tags: ['fr'],
-          reactions: 1,
-          img: '/images/test.jpg',
-          title: 'Another one',
-          summary:
-            "This is the beginning of a the article, you won't believe what...",
-          link: '/en/test',
-        },
-        {
-          date: '2012-12-01',
-          tags: ['en', 'mod'],
-          reactions: 10,
-          img: '/images/test.jpg',
-          title: 'And another one',
-          summary:
-            "This is the beginning of a the article, you won't believe what...",
-          link: '/en/test',
-        },
-        {
-          date: '2020-01-01',
-          tags: ['en'],
-          reactions: 3,
-          img: '/images/test.jpg',
-          title: 'The final one',
-          summary:
-            "This is the beginning of a the article, you won't believe what...",
-          link: '/en/test',
-        },
-      ]
+      return articles.en
+        .concat(articles.fr)
+        .sort((a, b) => b.date.localeCompare(a.date))
+        .slice(0, 5)
     },
   },
 }
