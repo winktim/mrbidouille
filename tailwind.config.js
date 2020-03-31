@@ -96,6 +96,7 @@ module.exports = {
           'magenta': '#B62C6D',
           'dark-magenta': '#602658',
           'pink': '#A748A6',
+          'bright-pink': '#be58bd',
           'violet': '#A661C9',
         },
       },

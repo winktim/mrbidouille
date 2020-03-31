@@ -83,8 +83,13 @@ export default {
       path.join(__dirname, './layouts/**/*.vue'),
       path.join(__dirname, './components/**/*.vue'),
     ]),
-    // whitelist: ['nuxt-link-exact-active'],
-    whitelistPatternsChildren: [/marked$/],
+    whitelist: [
+      'nuxt-link-exact-active',
+      'page-enter-active',
+      'page-leave-active',
+      'page-leave-to',
+      'page-enter',
+    ],
   },
 
   /*
