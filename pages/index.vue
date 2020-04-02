@@ -61,11 +61,32 @@ import ArticlePreview from '../components/articlepreview'
 import articles from '../assets/articles'
 
 export default {
+  head() {
+    return {
+      title: 'Mr. Bidouille',
+      htmlAttrs: {
+        lang: 'en',
+      },
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Tech and Hack blog about real cars and simulated ones, coming to you from the cheesy mountains of Switzerland',
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'blog,cars,tech,bidouille,switzerland',
+        },
+      ],
+    }
+  },
   components: { ArticlePreview },
   computed: {
     latestArticles() {
-      return articles.en
-        .concat(articles.fr)
+      return articles.list.en
+        .concat(articles.list.fr)
         .sort((a, b) => b.date.localeCompare(a.date))
         .slice(0, 5)
     },

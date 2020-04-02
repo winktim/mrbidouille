@@ -117,6 +117,18 @@
           </ul>
         </div>
       </div>
+      <div
+        v-if="en.length === 0 && fr.length === 0"
+        class="flex flex-col items-center"
+      >
+        <h3 class="text-2xl font-bold text-bid-magenta mt-4 md:mt-8">
+          No Results
+        </h3>
+        <span>
+          Oupsiii. Is there something I should be talking about ? Drop me an
+          email !
+        </span>
+      </div>
     </section>
   </main>
 </template>
@@ -126,6 +138,26 @@ import { filterArticles } from '../assets/utils'
 import articles from '../assets/articles'
 
 export default {
+  head() {
+    return {
+      title: 'Articles - Mr. Bidouille',
+      htmlAttrs: {
+        lang: 'en',
+      },
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: "List of all articles on Mr. Bidouille's blog",
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'blog,cars,tech,list,articles',
+        },
+      ],
+    }
+  },
   components: { ArticlePreview },
   data() {
     return {
@@ -134,10 +166,10 @@ export default {
   },
   computed: {
     en() {
-      return filterArticles(articles.en, this.search)
+      return filterArticles(articles.list.en, this.search)
     },
     fr() {
-      return filterArticles(articles.fr, this.search)
+      return filterArticles(articles.list.fr, this.search)
     },
   },
 }

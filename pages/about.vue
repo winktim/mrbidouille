@@ -30,7 +30,7 @@
         But it really means more than that in French. To me at least, it means
         to try to understand topics/machines you don't know by just giving it a
         go. It means to get your hands dirty and get things done, even if it
-        isn't professionaly done.
+        isn't professionally done.
       </p>
       <p class="my-2">
         I'll stay mostly anonymous. If you want to know the information i cared
@@ -68,6 +68,18 @@
         I do not condone reckless driving on public roads. Always follow traffic
         rules and try not to do something stupid. As a community, our image
         depends on it.
+      </p>
+
+      <p class="my-2">
+        To have a better idea of how many people visit my blog, I records the
+        fact that you visited it at a certain time, and I capture your user
+        agent, which contains information your browser shares with the web, like
+        your web browser version, language and device.<br />
+        I do not keep any other data about you, and I use that data anonymously,
+        solely for statistical reasons.<br />
+        I respect the "Do Not Track" flag that you can enable in your browser.
+        If the flag is enabled, from my point of view, it is as if you never
+        visited the website.
       </p>
 
       <h3 id="fr" class="text-xl font-bold mt-4">Et maintenant en français</h3>
@@ -111,19 +123,32 @@
         Je serais touché si vous décidiez de les utiliser :)
       </p>
 
-      <h4 class="mt-2 text-lg font-bold">Quelques formalitées</h4>
+      <h4 class="mt-2 text-lg font-bold">Quelques formalités</h4>
 
       <p class="my-2">
         Pour ma propre protection, je dois mentionner que les informations que
         vous trouverez sur ce site sont données sans garantie. Je ne suis pas un
-        professionel et, de ce fait, aucune information que je dis/écris ne doit
-        être considérée comme vraie ou comme un conseil<br />
+        professionnel et, de ce fait, aucune information que je dis/écris ne
+        doit être considérée comme vraie ou comme un conseil<br />
         Votre sécurité doit toujours être prioritaire lorsque vous travaillez
         sur un véhicule ou avec de l'électronique. En cas de doutes, demandez
-        toujours l'aide d'un professionel.<br />
+        toujours l'aide d'un professionnel.<br />
         Je n'encourage pas la conduite dangereuse sur routes publiques. Suivez
         toujours les règles de la circulation et essayez de ne pas faire de
-        conneries. En tant que communautée, notre image en dépend.
+        conneries. En tant que communauté, notre image en dépend.
+      </p>
+
+      <p class="my-2">
+        Pour avoir une meilleure idée de combien de personnes visitent mon blog,
+        j'enregistre le fait que vous l'avez visité et quand, ainsi que votre
+        agent utilisateur, qui contient des informations que votre navigateur
+        partage avec le web, comme la version de votre navigateur, votre langue
+        et votre périphérique.<br />
+        Je ne garde aucune autre information à propos de vous, et j'utilise ces
+        données anonymement, uniquement pour des raisons de statistiques.<br />
+        Je respect l'option "Ne pas me pister" que vous pouvez activer dans
+        votre navigateur. Si l'option est activée, de mon point de vue, c'est
+        comme si vous n'aviez jamais visité le site web.
       </p>
     </section>
   </main>
@@ -131,6 +156,26 @@
 <script>
 import Hiddenmail from '../components/hiddenmail'
 export default {
+  head() {
+    return {
+      title: 'About - Mr. Bidouille',
+      htmlAttrs: {
+        lang: 'en',
+      },
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: "All about Mr. Bidouille's blog in English et en français",
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'blog,about,bidouille',
+        },
+      ],
+    }
+  },
   components: {
     Hiddenmail,
   },
