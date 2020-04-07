@@ -1,23 +1,5 @@
 <template>
   <main>
-    <div
-      class="select-none pointer-events-none absolute top-0 left-0 pt-10 w-full z-10 overflow-hidden"
-    >
-      <div class="flex items-start">
-        <img src="/images/arrow-1.svg" alt="Arrow 1" class="mt-2 ml-4" />
-        <img src="/images/arrow-2.svg" alt="Arrow 2" class="ml-6" />
-        <img
-          src="/images/arrow-3.svg"
-          alt="Arrow 3"
-          class="ml-auto mt-2 mr-3"
-        />
-      </div>
-      <div class="flex items-start -mt-8 text-center">
-        <span class="rotate--8 p-2 pt-0">Home page</span>
-        <span class="rotate--4 p-2">List of all articles</span>
-        <span class="rotate-4 p-2 pt-0 ml-auto">About this blog</span>
-      </div>
-    </div>
     <section id="cover" class="relative w-full pb-8 flex justify-center">
       <div
         id="cover-gradient"

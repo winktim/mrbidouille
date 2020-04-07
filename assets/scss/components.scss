@@ -16,15 +16,17 @@
 
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in, transform 100ms ease-out;
 }
 
 .page-leave-to {
-  opacity: 0;
+  opacity: 60%;
+  transform: translateX(1vw);
 }
 
 .page-enter {
   opacity: 60%;
+  transform: translateX(-1vw);
 }
 
 .nuxt-link-exact-active {
