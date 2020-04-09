@@ -3,7 +3,7 @@
     ref="scroller"
     class="relative bg-gray-900 font-content w-screen h-screen overflow-x-hidden"
   >
-    <appbar></appbar>
+    <appbar id="top"></appbar>
     <div
       :class="
         [
@@ -82,6 +82,42 @@ export default {
         }
       },
     }
+  },
+  mounted() {
+    // look for scrolling
+    // The debounce function receives our function as a parameter
+    const debounce = fn => {
+      // This holds the requestAnimationFrame reference, so we can cancel it if we wish
+      let frame
+
+      // The debounce function returns a new function that can receive a variable number of arguments
+      return (...params) => {
+        // If the frame variable has been defined, clear it now, and queue for next frame
+        if (frame) {
+          cancelAnimationFrame(frame)
+        }
+
+        // Queue our function call for the next frame
+        frame = requestAnimationFrame(() => {
+          // Call our function and pass any params we received
+          fn(...params)
+        })
+      }
+    }
+
+    // Reads out the scroll position and stores it in the data attribute
+    // so we can use it in our stylesheets
+    const storeScroll = () => {
+      document.documentElement.dataset.scroll = this.$refs.scroller.scrollTop
+    }
+
+    // Listen for new scroll events, here we debounce our `storeScroll` function
+    this.$refs.scroller.addEventListener('scroll', debounce(storeScroll), {
+      passive: true,
+    })
+
+    // Update scroll position for first time
+    storeScroll()
   },
 }
 </script>

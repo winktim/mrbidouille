@@ -90,6 +90,7 @@ export default {
       'page-leave-to',
       'page-enter',
     ],
+    whitelistPatternsChildren: [/marked$/],
   },
 
   /*

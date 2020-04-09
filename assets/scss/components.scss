@@ -105,3 +105,7 @@
     animation-delay: -$randomNumber + ms;
   }
 }
+
+html[data-scroll='0'] .back-to-top {
+  @apply opacity-0 pointer-events-none;
+}

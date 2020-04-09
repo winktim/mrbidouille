@@ -46,7 +46,6 @@ export default {
   mounted() {
     // someone already asked this comments number
     if (!window.hyvorComments.asked.includes(this.hyvorId)) {
-      console.log('requesting comment count from hyvor for', this.hyvorId)
       window.hyvorComments.asked.push(this.hyvorId)
 
       const script = document.createElement('script')

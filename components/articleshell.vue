@@ -7,7 +7,7 @@
           :style="`background-image: url(${img});`"
         ></div>
         <h2
-          class="text-center text-2xl lg:text-3xl font-bold mt-8"
+          class="text-center text-2xl lg:text-3xl font-bold mt-4 lg:mt-8 px-8"
           v-text="title"
         ></h2>
         <ul
@@ -20,14 +20,20 @@
             :key="i"
           ></li>
         </ul>
-        <p class="text-center text-gray-400 my-2">Mr. Bidouille - {{ date }}</p>
+        <p class="text-center text-gray-400 my-2 px-8">
+          Mr. Bidouille - {{ date }}
+        </p>
       </section>
       <!-- article content -->
-      <section class="px-6 md:px-16 lg:px-32 xl:px-0 xl:mx-auto xl:w-300">
+      <section
+        class="marked px-6 md:px-16 lg:px-32 xl:px-0 xl:mx-auto xl:w-300"
+      >
         <slot />
         <!-- comments -->
         <div id="hyvor-talk-view">
-          Reading and writing comments requires JavaScript
+          <div class="w-full italic text-center my-8">
+            Reading and writing comments requires JavaScript
+          </div>
         </div>
         <script
           async
@@ -36,6 +42,13 @@
         ></script>
       </section>
     </article>
+    <!-- back to top -->
+    <a
+      href="#top"
+      class="back-to-top transition-opacity-200 opacity-1 pointer-events-auto fixed bottom-0 right-0 mb-12 mr-4 md:mr-8 p-6 rounded-full shadow-lg bg-gray-900 border-solid border-2 border-gray-800 flex items-center"
+    >
+      <i class="material-icons text-xl">arrow_upward</i>
+    </a>
     <!-- Matomo Image Tracker-->
     <img
       :src="
