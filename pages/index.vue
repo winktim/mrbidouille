@@ -1,6 +1,9 @@
 <template>
   <main>
-    <section id="cover" class="relative w-full pb-8 flex justify-center">
+    <section
+      id="cover"
+      class="relative bg-cover w-full pb-8 flex justify-center"
+    >
       <div
         id="cover-gradient"
         class="absolute top-0 left-0 w-full h-full"
@@ -27,20 +30,30 @@
           <article-preview
             :date="article.date"
             :tags="article.tags"
-            :reactions="article.reactions"
             :img="article.img"
             :title="article.title"
             :summary="article.summary"
             :link="article.link"
+            :hyvorId="article.hyvorId"
           ></article-preview>
         </li>
       </ul>
     </section>
+    <!-- Matomo Image Tracker-->
+    <img
+      :src="
+        `https://analytics.naito.one/matomo.php?idsite=2&amp;rec=1&amp;action_name=Index&amp;url=https://mrbidouille.ch/&amp;rand=${random}`
+      "
+      style="border:0"
+      alt
+    />
+    <!-- End Matomo -->
   </main>
 </template>
 <script>
 import ArticlePreview from '../components/articlepreview'
 import articles from '../assets/articles'
+import ministore from '../assets/ministore'
 
 export default {
   head() {
@@ -71,6 +84,9 @@ export default {
         .concat(articles.list.fr)
         .sort((a, b) => b.date.localeCompare(a.date))
         .slice(0, 5)
+    },
+    random() {
+      return ministore.MATOMO_SEED
     },
   },
 }

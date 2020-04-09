@@ -43,6 +43,7 @@
 import Appbar from '../components/appbar.vue'
 import Appfooter from '../components/appfooter.vue'
 import { scrollToTop } from '../assets/utils'
+import ministore from '../assets/ministore'
 
 export default {
   components: {
@@ -53,12 +54,34 @@ export default {
     $route() {
       // make sure the page is scrolled to the top
       scrollToTop(this.$refs.scroller)
+
+      // update matomo seed on wach page navigation
+      ministore.MATOMO_SEED = Math.random()
     },
   },
   computed: {
     isIndex() {
       return this.$route.name === 'index'
     },
+  },
+  beforeMount() {
+    // hyvor config
+    window.HYVOR_TALK_WEBSITE = 408
+
+    // hyvor comment count reciever
+    window.hyvorComments = {
+      asked: [],
+      recieved: {},
+    }
+
+    window.hyvorTalkCommentCount = {
+      receiveData: data => {
+        window.hyvorComments.recieved = {
+          ...window.hyvorComments.recieved,
+          ...data,
+        }
+      },
+    }
   },
 }
 </script>

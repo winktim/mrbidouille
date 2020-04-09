@@ -3,18 +3,20 @@
     <article class="w-full">
       <div class="flex items-center justify-between">
         <span v-text="date"></span>
-        <ul class="flex">
+        <ul
+          class="flashy-pills-list flex flex-wrap items-center justify-center"
+        >
           <li
-            class="bg-gray-800 rounded-full py-1 px-4 mx-1 leading-tight"
+            class="flashy-pill uppercase text-sm font-bold border-solid border-gray-800 border-2 rounded-full px-4 py-1 m-1"
             v-for="(tag, i) in tags"
             v-text="tag"
             :key="i"
           ></li>
         </ul>
-        <span class="text-right"> {{ reactions }} reactions</span>
+        <span class="text-right">{{ comments }}</span>
       </div>
       <div
-        class="bg-cover w-full h-50 my-2 rounded-md"
+        class="bg-cover bg-center w-full h-50 my-2 rounded-md"
         :style="`background-image: url(${img});`"
       ></div>
       <h3 class="text-2xl font-bold text-bid-magenta" v-text="title"></h3>
@@ -30,11 +32,41 @@ export default {
       type: Array,
       default: () => [],
     },
-    reactions: Number,
     img: String,
     title: String,
     summary: String,
     link: String,
+    hyvorId: Number,
+  },
+  data() {
+    return {
+      comments: '... comments',
+    }
+  },
+  mounted() {
+    // someone already asked this comments number
+    if (!window.hyvorComments.asked.includes(this.hyvorId)) {
+      console.log('requesting comment count from hyvor for', this.hyvorId)
+      window.hyvorComments.asked.push(this.hyvorId)
+
+      const script = document.createElement('script')
+      script.src = encodeURI(
+        `https://talk.hyvor.com/web-api/count/get?website=${HYVOR_TALK_WEBSITE}&webpageIdentifiers=[${
+          this.hyvorId
+        }]&time=${new Date().getTime()}`
+      )
+      document.body.appendChild(script)
+    }
+
+    const tryToFindComments = () => {
+      if (!window.hyvorComments.recieved.hasOwnProperty(this.hyvorId)) {
+        return setTimeout(tryToFindComments, 300)
+      }
+
+      this.comments = window.hyvorComments.recieved[this.hyvorId].string
+    }
+
+    tryToFindComments()
   },
 }
 </script>

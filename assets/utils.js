@@ -8,9 +8,9 @@ export function scrollToTop(el) {
 
 /**
  * Filter the given articles for the ones that are relevent to the search string
- * @param {{date: string, tags: string[], reactions: number, img: string, title: string, summary: string, link: string}[]} articles
+ * @param {{date: string, tags: string[], img: string, title: string, summary: string, link: string}[]} articles
  * @param {string} search
- * @returns {{date: string, tags: string[], reactions: number, img: string, title: string, summary: string, link: string}[]} filtered articles
+ * @returns {{date: string, tags: string[], img: string, title: string, summary: string, link: string}[]} filtered articles
  */
 export function filterArticles(articles, search) {
   if (search === '') {

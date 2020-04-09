@@ -59,6 +59,7 @@ module.exports = {
         '1/2-fake': '45%',
         '72': '18rem',
         '150': '37.5rem',
+        '300': '75rem',
       },
       maxHeight: {
         'screen-20': 'calc(100vh - 5rem)',

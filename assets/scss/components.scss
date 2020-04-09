@@ -2,7 +2,6 @@
 
 #cover {
   background-image: url(/images/cover.jpg);
-  background-size: cover;
   background-position-y: 20%;
 }
 
@@ -34,11 +33,12 @@
 }
 
 .bid-gradient {
-  background-image: linear-gradient(
-    to right,
-    theme('colors.bid.magenta'),
-    theme('colors.bid.violet')
-  );
+  border-image: linear-gradient(
+      to right,
+      theme('colors.bid.magenta'),
+      theme('colors.bid.violet')
+    )
+    1%;
 }
 
 .min-h-content {
@@ -70,5 +70,38 @@
         @apply lighten-none;
       }
     }
+  }
+}
+
+@keyframes flashy-pill {
+  $color-mix: 70%;
+  0% {
+    border-color: mix(
+      #424242,
+      #b62c6d,
+      $color-mix
+    ); // theme('colors.bid.magenta');
+  }
+  50% {
+    border-color: theme('colors.gray.800');
+  }
+  100% {
+    border-color: mix(
+      #424242,
+      #a661c9,
+      $color-mix
+    ); // theme('colors.bid.violet');
+  }
+}
+
+.flashy-pill {
+  animation: flashy-pill infinite alternate-reverse 3s ease-in-out;
+}
+
+@for $i from 1 through 10 {
+  $randomNumber: random(4000);
+
+  .flashy-pills-list > .flashy-pill:nth-child(#{$i}n) {
+    animation-delay: -$randomNumber + ms;
   }
 }

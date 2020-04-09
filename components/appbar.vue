@@ -1,6 +1,6 @@
 <template>
   <header
-    class="select-none flex items-center font-heading w-full h-14 bid-gradient text-gray-100 shadow-2xl"
+    class="select-none flex items-center font-heading w-full h-14 border-solid border-b-4 bid-gradient text-gray-100 shadow-2xl"
   >
     <nuxt-link
       to="/"

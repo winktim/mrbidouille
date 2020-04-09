@@ -47,6 +47,7 @@
             name="language"
             value="english"
             checked
+            v-model="langFilter"
           />
           <div
             class="article-label absolute top-0 left-0 w-1/2 flex justify-end"
@@ -68,11 +69,11 @@
               <article-preview
                 :date="article.date"
                 :tags="article.tags"
-                :reactions="article.reactions"
                 :img="article.img"
                 :title="article.title"
                 :summary="article.summary"
                 :link="article.link"
+                :hyvorId="article.hyvorId"
               ></article-preview>
             </li>
           </ul>
@@ -86,6 +87,7 @@
             id="french"
             name="language"
             value="french"
+            v-model="langFilter"
           />
           <div
             class="article-label absolute top-0 right-0 w-1/2 flex justify-start"
@@ -107,20 +109,17 @@
               <article-preview
                 :date="article.date"
                 :tags="article.tags"
-                :reactions="article.reactions"
                 :img="article.img"
                 :title="article.title"
                 :summary="article.summary"
                 :link="article.link"
+                :hyvorId="article.hyvorId"
               ></article-preview>
             </li>
           </ul>
         </div>
       </div>
-      <div
-        v-if="en.length === 0 && fr.length === 0"
-        class="flex flex-col items-center"
-      >
+      <div v-if="noResults" class="flex flex-col items-center">
         <h3 class="text-2xl font-bold text-bid-magenta mt-4 md:mt-8">
           No Results
         </h3>
@@ -130,12 +129,22 @@
         </span>
       </div>
     </section>
+    <!-- Matomo Image Tracker-->
+    <img
+      :src="
+        `https://analytics.naito.one/matomo.php?idsite=2&amp;rec=1&amp;action_name=Articles&amp;url=https://mrbidouille.ch/articles;rand=${random}`
+      "
+      style="border:0"
+      alt
+    />
+    <!-- End Matomo -->
   </main>
 </template>
 <script>
 import ArticlePreview from '../components/articlepreview'
 import { filterArticles } from '../assets/utils'
 import articles from '../assets/articles'
+import ministore from '../assets/ministore'
 
 export default {
   head() {
@@ -162,14 +171,24 @@ export default {
   data() {
     return {
       search: '',
+      langFilter: 'english',
     }
   },
   computed: {
+    noResults() {
+      return (
+        (this.langFilter === 'english' && this.en.length === 0) ||
+        (this.langFilter === 'french' && this.fr.length === 0)
+      )
+    },
     en() {
       return filterArticles(articles.list.en, this.search)
     },
     fr() {
       return filterArticles(articles.list.fr, this.search)
+    },
+    random() {
+      return ministore.MATOMO_SEED
     },
   },
 }

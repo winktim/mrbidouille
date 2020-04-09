@@ -35,11 +35,11 @@
       <p class="my-2">
         I'll stay mostly anonymous. If you want to know the information i cared
         to share about myself, check out my introduction post here (
-        <nuxt-link class="nice-link" to="/en/2020-03-30-introduction"
+        <nuxt-link class="nice-link" to="/en/2020-04-01-introduction"
           >en</nuxt-link
         >
         /
-        <nuxt-link class="nice-link" to="/fr/2020-03-30-introduction"
+        <nuxt-link class="nice-link" to="/fr/2020-04-01-introduction"
           >fr</nuxt-link
         >).
       </p>
@@ -100,11 +100,11 @@
         Je compte rester majoritairement anonyme. Si vous voulez connaître les
         informations que j'ai décidé de partager sur moi, je vous invite à lire
         mon poste d'introduction ici (
-        <nuxt-link class="nice-link" to="/en/2020-03-30-introduction"
+        <nuxt-link class="nice-link" to="/en/2020-04-01-introduction"
           >en</nuxt-link
         >
         /
-        <nuxt-link class="nice-link" to="/fr/2020-03-30-introduction"
+        <nuxt-link class="nice-link" to="/fr/2020-04-01-introduction"
           >fr</nuxt-link
         >).
       </p>
@@ -151,10 +151,20 @@
         comme si vous n'aviez jamais visité le site web.
       </p>
     </section>
+    <!-- Matomo Image Tracker-->
+    <img
+      :src="
+        `https://analytics.naito.one/matomo.php?idsite=2&amp;rec=1&amp;action_name=About&amp;url=https://mrbidouille.ch/about&amp;rand=${random}`
+      "
+      style="border:0"
+      alt
+    />
+    <!-- End Matomo -->
   </main>
 </template>
 <script>
 import Hiddenmail from '../components/hiddenmail'
+import ministore from '../assets/ministore'
 export default {
   head() {
     return {
@@ -178,6 +188,11 @@ export default {
   },
   components: {
     Hiddenmail,
+  },
+  computed: {
+    random() {
+      return ministore.MATOMO_SEED
+    },
   },
 }
 </script>
