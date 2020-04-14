@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "cross-env NUXT_HOST=0.0.0.0 nuxt start",
     "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=dist --cleanup"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "node-sass": "^4.12.0",
