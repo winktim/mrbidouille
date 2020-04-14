@@ -10,7 +10,7 @@ const articles = {
       summary:
         'This article has for goal to introduce who "Mr. Bidouille" is, and why you might want to bookmark this blog...',
       link: '/en/2020-04-01-introduction',
-      hyvorId: 1,
+      hyvorId: 2,
     },
   },
   fr: {
@@ -22,7 +22,7 @@ const articles = {
       summary:
         'Cet article a pour but de présenter qui est "Mr. Bidouille", et pourquoi vous voudriez garder un oeil sur ce blog...',
       link: '/fr/2020-04-01-introduction',
-      hyvorId: 1,
+      hyvorId: 2,
     },
   },
   list: {
