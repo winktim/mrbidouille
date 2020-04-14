@@ -31,10 +31,6 @@
 
   a {
     @apply text-bid-bright-pink underline;
-
-    &:hover {
-      @apply lighten-10;
-    }
   }
 
   ul {

@@ -1,8 +1,5 @@
 <template>
-  <div
-    ref="scroller"
-    class="relative bg-gray-900 font-content w-screen h-screen overflow-x-hidden"
-  >
+  <div class="relative bg-gray-900 font-content w-full">
     <appbar id="top"></appbar>
     <div
       :class="
@@ -42,7 +39,6 @@
 <script>
 import Appbar from '../components/appbar.vue'
 import Appfooter from '../components/appfooter.vue'
-import { scrollToTop } from '../assets/utils'
 import ministore from '../assets/ministore'
 
 export default {
@@ -52,9 +48,6 @@ export default {
   },
   watch: {
     $route() {
-      // make sure the page is scrolled to the top
-      scrollToTop(this.$refs.scroller)
-
       // update matomo seed on wach page navigation
       ministore.MATOMO_SEED = Math.random()
     },
@@ -108,11 +101,11 @@ export default {
     // Reads out the scroll position and stores it in the data attribute
     // so we can use it in our stylesheets
     const storeScroll = () => {
-      document.documentElement.dataset.scroll = this.$refs.scroller.scrollTop
+      document.documentElement.dataset.scroll = window.scrollY
     }
 
     // Listen for new scroll events, here we debounce our `storeScroll` function
-    this.$refs.scroller.addEventListener('scroll', debounce(storeScroll), {
+    document.addEventListener('scroll', debounce(storeScroll), {
       passive: true,
     })
 

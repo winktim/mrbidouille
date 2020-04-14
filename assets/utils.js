@@ -1,12 +1,4 @@
 /**
- * Scroll an element to it's top
- * @param {HTMLElement} el
- */
-export function scrollToTop(el) {
-  el.scrollTop = 0
-}
-
-/**
  * Filter the given articles for the ones that are relevent to the search string
  * @param {{date: string, tags: string[], img: string, title: string, summary: string, link: string}[]} articles
  * @param {string} search

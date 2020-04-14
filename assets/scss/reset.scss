@@ -1,6 +1,5 @@
-// fix wierd IE and edge body overscroll
 body {
-  overflow: hidden;
+  @apply w-full overflow-x-hidden;
 }
 
 input,

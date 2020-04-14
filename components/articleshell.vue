@@ -1,5 +1,5 @@
 <template>
-  <main class="flex-grow text-gray-100">
+  <main class="flex-grow text-gray-100" ref="main">
     <article>
       <section>
         <div
@@ -35,11 +35,6 @@
             Reading and writing comments requires JavaScript
           </div>
         </div>
-        <script
-          async
-          type="text/javascript"
-          src="https://talk.hyvor.com/web-api/embed"
-        ></script>
       </section>
     </article>
     <!-- back to top -->
@@ -101,6 +96,11 @@ export default {
       url: 'https://mrbidouille.ch' + this.link,
       id: this.hyvorId,
     }
+  },
+  mounted() {
+    const script = document.createElement('script')
+    script.src = 'https://talk.hyvor.com/web-api/embed'
+    this.$refs.main.appendChild(script)
   },
   computed: {
     random() {
