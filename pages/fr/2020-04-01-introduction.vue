@@ -129,7 +129,7 @@
           alt="Photo de la Lexus IS200"
       /></a>
       <span>
-        La Lexus aux abords de son habitat naturel: le Touge Suisse.
+        La Lexus aux abords de son habitat naturel: le Touge Suisse
       </span>
     </figure>
     <p>

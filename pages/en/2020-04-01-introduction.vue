@@ -142,7 +142,7 @@
           alt="Picture of the Lexus IS200"
       /></a>
       <span>
-        The Lexus close to its natural habitat: the Swiss Touge.
+        The Lexus close to its natural habitat: the Swiss Touge
       </span>
     </figure>
     <p>
