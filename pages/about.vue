@@ -6,8 +6,8 @@
         <span class="text-sm">(not much)</span>
       </h2>
       <div
-        class="bg-cover w-full h-50 my-4 md:my-8 rounded-md"
-        style="background-image: url(/images/about.jpg);"
+        class="bg-cover bg-center w-full h-50 my-4 md:my-8 rounded-md"
+        style="background-image: url(/images/engine-bay.jpg);"
       ></div>
 
       <h3 class="text-xl font-bold mt-4">
