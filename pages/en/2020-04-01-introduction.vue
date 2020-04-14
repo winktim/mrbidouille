@@ -139,10 +139,10 @@
       <a href="/images/articles/2020-04-01-introduction/is200.jpg"
         ><img
           src="/images/articles/2020-04-01-introduction/is200.jpg"
-          alt="Photo de la Lexus IS200"
+          alt="Picture of the Lexus IS200"
       /></a>
       <span>
-        La Lexus aux abords de son habitat naturel: le Touge Suisse.
+        The Lexus close to its natural habitat: the Swiss Touge.
       </span>
     </figure>
     <p>
