@@ -191,8 +191,12 @@
       want a private conversation.
     </p>
     <p>
-      I’ll also create a Youtube channel very soon, but I won’t be making full
-      on videos. The channel will contain short clips used in my articles.
+      I’ll also create a
+      <a href="https://www.youtube.com/channel/UC2qxzQXsi8Yyl04uKxnKE6g"
+        >Youtube channel</a
+      >
+      very soon (update: it's done), but I won’t be making full on videos. The
+      channel will contain short clips used in my articles.
     </p>
     <p><br /></p>
     <p>

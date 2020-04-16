@@ -174,9 +174,13 @@
     </p>
     <p>Sinon, mon adresse email est en fond de page pour un contact privé.</p>
     <p>
-      Je créerai aussi une chaîne Youtube sous peu, mais elle contiendra
-      principalement des clips pour mes articles. Je ne compte pas faire
-      régulièrement des «&nbsp;vidéos&nbsp;» à proprement parler.
+      Je créerai aussi une
+      <a href="https://www.youtube.com/channel/UC2qxzQXsi8Yyl04uKxnKE6g"
+        >chaîne Youtube</a
+      >
+      sous peu (update: c'est fait), mais elle contiendra principalement des
+      clips pour mes articles. Je ne compte pas faire régulièrement des
+      «&nbsp;vidéos&nbsp;» à proprement parler.
     </p>
     <p><br /></p>
     <p>

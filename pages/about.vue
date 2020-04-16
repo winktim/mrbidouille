@@ -10,6 +10,20 @@
         style="background-image: url(/images/engine-bay.jpg);"
       ></div>
 
+      <div
+        class="w-full flex justify-center items-center border-gray-800 border-solid border-2 rounded-md"
+      >
+        <i class="material-icons text-2xl p-2">ondemand_video</i>
+        <span class="p-2">
+          If you are looking for my youtube channel,
+          <a
+            class="nice-link"
+            href="https://www.youtube.com/channel/UC2qxzQXsi8Yyl04uKxnKE6g"
+            >click here !</a
+          >
+        </span>
+      </div>
+
       <h3 class="text-xl font-bold mt-4">
         In English first
         <a class="nice-link" href="#fr">(français en dessous)</a>
