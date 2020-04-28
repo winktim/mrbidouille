@@ -33,18 +33,21 @@
       </div>
     </div>
     <nuxt class="flex flex-col text-gray-100 min-h-content" />
+    <subscribe-form></subscribe-form>
     <appfooter></appfooter>
   </div>
 </template>
 <script>
 import Appbar from '../components/appbar.vue'
 import Appfooter from '../components/appfooter.vue'
+import SubscribeForm from '../components/subscribeform.vue'
 import ministore from '../assets/ministore'
 
 export default {
   components: {
     Appbar,
     Appfooter,
+    SubscribeForm,
   },
   watch: {
     $route() {

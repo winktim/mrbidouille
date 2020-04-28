@@ -109,3 +109,8 @@
 html[data-scroll='0'] .back-to-top {
   @apply opacity-0 pointer-events-none;
 }
+
+// tailwind doesn't want to generate it
+.target\:block:target {
+  display: block;
+}

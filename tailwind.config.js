@@ -33,6 +33,7 @@ module.exports = {
       'padding-top': 'padding-top',
       'color': 'color',
       'background': 'background',
+      'border': 'border',
     },
     colorVariations: {
       none: 0,
@@ -91,6 +92,7 @@ module.exports = {
           600: '#757575',
           700: '#616161',
           800: '#424242',
+          850: '#1d1d1d',
           900: '#111111',
         },
         bid: {
@@ -100,6 +102,9 @@ module.exports = {
           'bright-pink': '#be58bd',
           'violet': '#A661C9',
         },
+      },
+      variants: {
+        display: ['responsive', 'target'],
       },
     },
   },
