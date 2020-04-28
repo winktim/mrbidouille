@@ -13,8 +13,8 @@
       <div
         class="w-full flex justify-center items-center border-gray-800 border-solid border-2 rounded-md"
       >
-        <i class="material-icons text-2xl p-2">ondemand_video</i>
-        <span class="p-2">
+        <i class="material-icons text-2xl p-2 pl-4">ondemand_video</i>
+        <span class="p-2 pr-4 text-center">
           If you are looking for my youtube channel,
           <a
             class="nice-link"
