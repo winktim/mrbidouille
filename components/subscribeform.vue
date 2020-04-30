@@ -68,7 +68,7 @@
           type="submit"
           name=""
           value="Subscribe"
-          class="bg-bid-magenta p-2 text-center rounded-md shadow"
+          class="bg-bid-magenta p-2 text-center rounded-md shadow cursor-pointer hover:lighten-10"
         />
       </form>
     </div>
