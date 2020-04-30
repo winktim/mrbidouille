@@ -12,6 +12,16 @@ const articles = {
       link: '/en/2020-04-01-introduction',
       hyvorId: 2,
     },
+    '2020-05-01-is200-service-manual': {
+      date: '2020-05-01',
+      tags: ['en', 'is200', 'service'],
+      img: '/images/articles/2020-05-01-is200-service-manual/manual.jpg',
+      title: 'The Lexus IS200’s service manual',
+      summary:
+        'The service manuel is an essential tool to service your car. But the problem is that it can be hard to find. But I finally got my hands on it....',
+      link: '/en/2020-05-01-is200-service-manual',
+      hyvorId: 3,
+    },
   },
   fr: {
     '2020-04-01-introduction': {
@@ -23,6 +33,16 @@ const articles = {
         'Cet article a pour but de présenter qui est "Mr. Bidouille", et pourquoi vous voudriez garder un oeil sur ce blog...',
       link: '/fr/2020-04-01-introduction',
       hyvorId: 2,
+    },
+    '2020-05-01-is200-manuel-de-service': {
+      date: '2020-05-01',
+      tags: ['fr', 'is200', 'service'],
+      img: '/images/articles/2020-05-01-is200-service-manual/manual.jpg',
+      title: 'Manuel de service de la Lexus IS200',
+      summary:
+        'Le manuel de service est indispensable pour entretenir la voiture. Seulement voilà, il est compliqué à trouver. J’ai cependant finalement réussi à mettre la main dessus...',
+      link: '/fr/2020-05-01-is200-manuel-de-service',
+      hyvorId: 3,
     },
   },
   list: {
