@@ -1,8 +1,8 @@
 <template>
   <a
-    data-x="YUdWc2JHOUE="
+    data-x="YldGcGJIUnZPbWhsYkd4dlFBPT0="
     href="#"
-    onclick="this.href = 'mailto:' + atob(atob(this.dataset.x)) + location.hostname"
+    onclick="this.href = atob(atob(this.dataset.x)) + location.hostname"
   >
     hello (at) mrbidouille.ch
   </a>
