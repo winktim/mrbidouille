@@ -39,3 +39,12 @@ export function filterArticles(articles, search) {
 
   return exactMatches.concat(otherMatches)
 }
+
+/**
+ * Sort the given articles by newest first
+ * @param {{date: string, tags: string[], img: string, title: string, summary: string, link: string}[]} articles
+ * @returns {{date: string, tags: string[], img: string, title: string, summary: string, link: string}[]} sorted articles
+ */
+export function newestFirst(articles) {
+  return articles.sort((a, b) => b.date.localeCompare(a.date))
+}

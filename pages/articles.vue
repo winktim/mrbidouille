@@ -59,7 +59,7 @@
             >
           </div>
           <ul
-            class="article-list w-full flex flex-col items-center justify-center lg:flex-row lg:flex-wrap"
+            class="article-list w-full flex flex-col items-start justify-center lg:flex-row lg:flex-wrap"
           >
             <li
               v-for="(article, i) in en"
@@ -99,7 +99,7 @@
             >
           </div>
           <ul
-            class="article-list w-full flex flex-col items-center justify-center lg:flex-row lg:flex-wrap"
+            class="article-list w-full flex flex-col items-start justify-center lg:flex-row lg:flex-wrap"
           >
             <li
               v-for="(article, i) in fr"
@@ -142,7 +142,7 @@
 </template>
 <script>
 import ArticlePreview from '../components/articlepreview'
-import { filterArticles } from '../assets/utils'
+import { filterArticles, newestFirst } from '../assets/utils'
 import articles from '../assets/articles'
 import ministore from '../assets/ministore'
 
@@ -182,10 +182,10 @@ export default {
       )
     },
     en() {
-      return filterArticles(articles.list.en, this.search)
+      return newestFirst(filterArticles(articles.list.en, this.search))
     },
     fr() {
-      return filterArticles(articles.list.fr, this.search)
+      return newestFirst(filterArticles(articles.list.fr, this.search))
     },
     random() {
       return ministore.MATOMO_SEED

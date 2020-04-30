@@ -20,7 +20,7 @@
     <section class="px-6 md:px-16 lg:px-32 xl:px-56 my-4">
       <h2 class="text-center text-2xl">Latest articles</h2>
       <ul
-        class="w-full flex flex-col items-center justify-center lg:flex-row lg:flex-wrap"
+        class="w-full flex flex-col items-start justify-center lg:flex-row lg:flex-wrap"
       >
         <li
           v-for="(article, i) in latestArticles"
@@ -52,6 +52,7 @@
 </template>
 <script>
 import ArticlePreview from '../components/articlepreview'
+import { newestFirst } from '../assets/utils'
 import articles from '../assets/articles'
 import ministore from '../assets/ministore'
 
@@ -80,10 +81,7 @@ export default {
   components: { ArticlePreview },
   computed: {
     latestArticles() {
-      return articles.list.en
-        .concat(articles.list.fr)
-        .sort((a, b) => b.date.localeCompare(a.date))
-        .slice(0, 5)
+      return newestFirst(articles.list.en.concat(articles.list.fr)).slice(0, 5)
     },
     random() {
       return ministore.MATOMO_SEED
