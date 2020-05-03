@@ -18,19 +18,19 @@
     <p>
       I had to recreate the PDF files, because the pages were scattered in a
       number of files, mixed in with a few pages about the IS300 and the
-      Sportcross version of the car. It wasn’t an easy task, but the hours spent
+      Sportcross version of the car. It wasn't an easy task, but the hours spent
       in the train were at least used for good.
     </p>
     <p>
-      So if you want my complete and recreated version of the IS200’s service
+      So if you want my complete and recreated version of the IS200's service
       manual, I invite you to send me an email at
-      <hiddenmail></hiddenmail>. I’ll answer with a download link as soon as
+      <hiddenmail></hiddenmail>. I'll answer with a download link as soon as
       possible
-      <strong>(~260MB compressed, ~300MB decompressed, 2’078 elements)</strong>.
+      <strong>(~260MB compressed, ~300MB decompressed, 2'078 elements)</strong>.
     </p>
     <p><br /></p>
     <p>
-      I do not simply upload it to the blog because I don’t think that would be
+      I do not simply upload it to the blog because I don't think that would be
       very legal.
     </p>
     <p><br /></p>

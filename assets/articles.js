@@ -18,7 +18,7 @@ const articles = {
       img: '/images/articles/2020-05-01-is200-service-manual/manual.jpg',
       title: 'The Lexus IS200’s service manual',
       summary:
-        'The service manuel is an essential tool to service your car. But the problem is that it can be hard to find. But I finally got my hands on it....',
+        'The service manual is an essential tool to service your car. But the problem is that it can be hard to find. But I finally got my hands on it....',
       link: '/en/2020-05-01-is200-service-manual',
       hyvorId: 3,
     },
