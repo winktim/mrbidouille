@@ -6,7 +6,7 @@
   }
 
   h4 {
-    @apply text-xl mt-4;
+    @apply text-xl mt-4 italic font-bold;
   }
 
   h5 {
@@ -18,7 +18,7 @@
   }
 
   figure {
-    @apply flex flex-col items-center mb-4;
+    @apply flex flex-col items-center mb-4 mx-1;
 
     img {
       @apply max-w-full rounded-md mb-2;
@@ -33,10 +33,19 @@
     @apply text-bid-bright-pink underline;
   }
 
-  ul {
-    @apply mb-4 list-inside list-disc;
+  ul,
+  ol {
+    @apply mb-4 list-inside;
     li {
       @apply ml-4;
     }
+  }
+
+  ol {
+    @apply list-decimal;
+  }
+
+  ul {
+    @apply list-disc;
   }
 }

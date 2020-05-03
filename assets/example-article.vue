@@ -13,10 +13,12 @@
 </template>
 <script>
 import ArticleShell from '../../components/articleshell'
+import Hiddenmail from '../../components/hiddenmail'
+import ClickableImage from '../../components/clickable-image'
 import articles from '../../assets/articles'
 
 export default {
-  components: { ArticleShell },
+  components: { ArticleShell, Hiddenmail, ClickableImage },
   data() {
     return {
       article: articles.en['article-name-here'],
