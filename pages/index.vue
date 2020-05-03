@@ -81,7 +81,7 @@ export default {
   components: { ArticlePreview },
   computed: {
     latestArticles() {
-      return newestFirst(articles.list.en.concat(articles.list.fr)).slice(0, 5)
+      return newestFirst(articles.list.en.concat(articles.list.fr)).slice(0, 6)
     },
     random() {
       return ministore.MATOMO_SEED
