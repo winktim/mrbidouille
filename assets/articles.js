@@ -22,6 +22,16 @@ const articles = {
       link: '/en/2020-05-01-is200-service-manual',
       hyvorId: 3,
     },
+    '2020-05-04-is200-timing-belt': {
+      date: '2020-05-04',
+      tags: ['en', 'is200', 'service', 'timing belt'],
+      img: '/images/articles/2020-05-04-is200-timing-belt/timing.jpg',
+      title: 'Changing the timing belt on the IS200',
+      summary:
+        'Complete guide on how to change the timing belt and the auxiliaries on the Lexus IS200 in your driveway on a budget...',
+      link: '/en/2020-05-04-is200-timing-belt',
+      hyvorId: 4,
+    },
   },
   fr: {
     '2020-04-01-introduction': {
@@ -43,6 +53,16 @@ const articles = {
         'Le manuel de service est indispensable pour entretenir la voiture. Seulement voilà, il est compliqué à trouver. J’ai cependant finalement réussi à mettre la main dessus...',
       link: '/fr/2020-05-01-is200-manuel-de-service',
       hyvorId: 3,
+    },
+    '2020-05-04-is200-courroie-de-distribution': {
+      date: '2020-05-04',
+      tags: ['fr', 'is200', 'service', 'distribution'],
+      img: '/images/articles/2020-05-04-is200-timing-belt/timing.jpg',
+      title: "Service de la courroie de distribution sur l'IS200",
+      summary:
+        'Guide complet pour changer la courroie de distribution et les auxiliaires sur la Lexus IS200 sur son parking à moindre coûts...',
+      link: '/fr/2020-05-04-is200-courroie-de-distribution',
+      hyvorId: 4,
     },
   },
   list: {
