@@ -48,3 +48,15 @@ export function filterArticles(articles, search) {
 export function newestFirst(articles) {
   return articles.sort((a, b) => b.date.localeCompare(a.date))
 }
+
+/**
+ * Modify the given array to insert elements at the given index, then returns the array
+ * @param {any[]} array
+ * @param {number} index
+ * @param  {...any} elements
+ * @returns {any[]} the modified array
+ */
+export function insertInArray(array, index, ...elements) {
+  array.splice(index, 0, ...elements)
+  return array
+}
