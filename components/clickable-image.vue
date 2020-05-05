@@ -1,6 +1,8 @@
 <template>
-  <figure :title="alt">
-    <a :href="src"><img :src="finalSrc" :alt="alt"/></a>
+  <figure :title="alt" class="w-full">
+    <a class="w-full h-full" :href="src"
+      ><img class="w-full" :src="finalSrc" :alt="alt"
+    /></a>
     <span v-text="description"></span>
   </figure>
 </template>
