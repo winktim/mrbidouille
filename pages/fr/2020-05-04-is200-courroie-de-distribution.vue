@@ -69,10 +69,11 @@
         breaker bar
       </li>
       <li>
-        Une clé dynamométrique, allant de 30Nm à 220Nm (personnellement j'ai un
-        adaptateur digital, mais je ne le recommanderais pas forcément. J'en
+        Une clé dynamométrique, allant de 17.5 Nm à 220 Nm (personnellement j'ai
+        un adaptateur digital, mais je ne le recommanderais pas forcément. J'en
         parle dans l'article)
       </li>
+      <li>Un marteau et des morceaux de bois (pour amortir l'impact)</li>
       <li>
         Des protections pour vos mains et vos yeux (recommandé)
       </li>
@@ -87,10 +88,7 @@
         votre vie plus confortable et propre
       </li>
       <li>Du papier ménage</li>
-
-      <li>
-        Des colliers de serrage (cable ties)
-      </li>
+      <li>Des colliers de serrage (cable ties)</li>
     </ul>
     <p><br /></p>
     <p>
@@ -221,9 +219,7 @@
       refroidissement. Commencez par lever l'avant de la voiture.
     </p>
 
-    <h4>
-      Cache sous-moteur
-    </h4>
+    <h4>Cache sous-moteur</h4>
     <p>
       Il y a un cache qui recouvre tout l'avant de la voiture. Retirez-le. C'est
       le premier truc à retirer dès que vous travaillez à l'avant de la voiture,
@@ -232,9 +228,9 @@
       Prenez votre temps et trouvez-les tous.
     </p>
 
-    <h4>Vidange</h4>
+    <h4>Vidange du liquide de refroidissement</h4>
     <p>
-      Sous la voiture, du côté gauche, il y a un petit robinet. Placez un
+      Sous la voiture, du côté droit, il y a un petit robinet. Placez un
       récipient en dessous, et ouvrez le robinet. Des fois c'est faisable à la
       main, des fois vous pouvez vous aider d'une pince.
     </p>
@@ -251,8 +247,8 @@
       vous pouvez entièrement retirer le robinet.
     </p>
     <p>
-      Ça va prendre un moment pour les 5L (entre 4L et 5L en général) de liquide
-      de refroidissement de sortir.
+      Ça va prendre un moment pour les 4L - 5L de liquide de refroidissement de
+      sortir.
     </p>
 
     <h4>Pare-chocs</h4>
@@ -272,8 +268,8 @@
     <p>
       Une fois le pare-chocs retiré, toujours pendant que le liquide se vide,
       vous pouvez commencer à décrocher le radiateur. Il faut tout d'abord
-      enlever une première partie de l'entrée d'air, retenue par 3 boulons de
-      10mm au-dessus du radiateur. Ensuite, cette partie peut juste se glisser
+      enlever une première partie de l'entrée d'air, retenue par 3 boulons de 10
+      mm au-dessus du radiateur. Ensuite, cette partie peut juste se glisser
       vers l'avant de la voiture pour être retirée.
     </p>
 
@@ -371,8 +367,8 @@
 
     <h3 id="3">3. Retirer les bougies d'allumage</h3>
     <p>
-      Il y a un autre cache à retirer par-dessus les bougies d'allumage, avec
-      4x10mm.
+      Il y a un autre cache à retirer par-dessus les bougies d'allumage, avec 4
+      x 10 mm.
     </p>
 
     <clickable-image
@@ -420,7 +416,7 @@
     <h3 id="4">4. Défaire les courroies auxiliaires</h3>
     <p>On y est&nbsp;! Maintenant on touche aux courroies.</p>
     <p>
-      Il y a encore un cache avec 3x10 mm au-dessus de l'alternateur. Vous
+      Il y a encore un cache avec 3 x 10 mm au-dessus de l'alternateur. Vous
       pouvez déjà le retirer (je l'ai fait plus tard, mais maintenant est un bon
       moment).
     </p>
@@ -429,7 +425,8 @@
       éloignée du devant de la voiture.
     </p>
     <p>
-      Tous les boulons qu'on va rencontrer maintenant sont soit 12 mm soit 14mm.
+      Tous les boulons qu'on va rencontrer maintenant sont soit 12 mm soit 14
+      mm.
     </p>
     <p>
       Je vous conseille de presser gentiment sur chacune des courroies afin
@@ -439,8 +436,8 @@
 
     <h4>Auxiliaire 1</h4>
     <p>
-      Commencez par desserrer légèrement le boulon au centre de la poulie, puis
-      celui de la longue visse.
+      Commencez par desserrer légèrement l'écrou au centre de la poulie, puis la
+      longue visse.
     </p>
 
     <clickable-image
@@ -452,6 +449,7 @@
       En jouant sur leur serrage, vous arrivez à enlever la tension sur la
       courroie, et finalement la retirer.
     </p>
+
     <h4>Auxiliaire 2</h4>
     <p>
       Celle-ci va être un peu spéciale, car après l'avoir retirée, nous allons
@@ -462,17 +460,17 @@
     <p>
       Pour la desserrer, il y a 3 boulons à desserrer avec la même technique
       d'avant. Voyez les deux images. Notez que sur la deuxième photo, je
-      n'avais pas encore retiré le cache au-dessus de l'alternateur
+      n'avais pas encore retiré le cache au-dessus de l'alternateur.
     </p>
 
     <div class="flex flex-wrap lg:flex-no-wrap">
       <clickable-image
         src="/images/articles/2020-05-04-is200-timing-belt/14-undo-second-aux-2.jpg"
-        alt="Bobines d'allumage"
+        alt="Ordre de desserrage pour l'auxiliaire 2, partie 1"
       ></clickable-image>
       <clickable-image
         src="/images/articles/2020-05-04-is200-timing-belt/13-undo-second-aux-1.jpg"
-        alt="Bougies d'allumage"
+        alt="Ordre de desserrage pour l'auxiliaire 2, partie 2"
       ></clickable-image>
     </div>
 
@@ -611,7 +609,7 @@
       alt="Premier boulon, vu du dessus"
     ></clickable-image>
 
-    <p>Et voici le deuxième. Même principe (vu depuis dessous)</p>
+    <p>Et voici le deuxième. Même principe (vu depuis dessous).</p>
 
     <clickable-image
       src="/images/articles/2020-05-04-is200-timing-belt/23-undo-third-aux-2.jpg"
@@ -693,8 +691,8 @@
     <p>
       Avec la seconde solution, mettez le moins de force possible pour ne pas
       resserrer le boulon. Lorsque vous avez le bon alignement, tourner encore
-      ~5°, puis donnez un ou deux coups secs à votre breaker bar vers la gauche
-      pour déloger le boulon. Il devrait tourner vers la gauche de max 5° avant
+      ~5 °, puis donnez un ou deux coups secs à votre breaker bar vers la gauche
+      pour déloger le boulon. Il devrait tourner vers la gauche de max 5 ° avant
       de se libérer à nouveau.
     </p>
     <p>
@@ -708,7 +706,8 @@
       Vous pouvez même prendre des photos de l'alignement, juste comme référence
       supplémentaire pour plus tard.
     </p>
-    <h3>7. Retirer la poulie de vilebrequin (Crankshaft pulley)</h3>
+
+    <h3 id="7">7. Retirer la poulie de vilebrequin (Crankshaft pulley)</h3>
     <p>
       Il est maintenant temps d'enlever la poulie de vilebrequin. Quelle merde
       celle-là&nbsp;! J'ai finalement réussi à l'enlever et je vais vous
@@ -744,7 +743,7 @@
       très très léger jeu, j'ai ensuite vissé 2 visses dans les trous de la
       poulie (voir photo). Ces visses proviennent en fait du corps de papillon,
       donc elles peuvent être récupérées tout facilement (ce sont les deux
-      longues visses à qui maintiennent le corps de papillon en place, à sa
+      longues visses qui maintiennent le corps de papillon en place, à sa
       gauche).
     </p>
 
@@ -833,8 +832,8 @@
 
     <h4>Retirer les poulies de tension</h4>
     <p>
-      Cette poulie a un mécanisme qui est un peu intimidant, et surtout dans le
-      manuel, car c'est très mal expliqué à mon humble avis.
+      Cette première poulie a un mécanisme qui est un peu intimidant, et surtout
+      dans le manuel, car c'est très mal expliqué à mon humble avis.
     </p>
     <p>
       Une première manipulation permet d'enlever la tension. Une seconde
@@ -842,16 +841,16 @@
       finalement une troisième manipulation retire la poulie. Commençons.
     </p>
     <p>
-      Mettez une clé hexagonale de 10 mm dans le plus grand trou. On le tournant
-      dans le sens des aiguilles d'une montre, vous desserrez la courroie. Oui
-      c'est un peu contre intuitif, mais c'est bien le sens des aiguilles d'une
-      montre pour desserrer. Ici j'ai utilisé une clé solide, et j'ai improvisé
-      une extension avec une extension 1/2in de mon cliquet.
+      Mettez une clé hexagonale de 10 mm dans le plus grand trou. En le tournant
+      dans le sens horaire, vous desserrez la courroie. Oui c'est un peu contre
+      intuitif, mais c'est bien le sens horaire pour desserrer. Ici j'ai utilisé
+      une clé solide, et j'ai improvisé une extension avec une extension 1/2 in
+      de mon cliquet.
     </p>
     <p>
       Pour maintenir la position de non-tension, il faut utiliser votre seconde
-      main et une clé hexagonale de 5mm. En fait, la clé ne se coince pas dans
-      un trou hexagonal. C'est juste un trou rond de 5mm.
+      main et une clé hexagonale de 5 mm. En fait, la clé ne se coince pas dans
+      un trou hexagonal. C'est juste un trou rond de 5 mm.
     </p>
     <p>
       Lorsque vous tournez la clé de 10 mm, le trou devient accessible, et vous
@@ -862,7 +861,7 @@
 
     <clickable-image
       src="/images/articles/2020-05-04-is200-timing-belt/35-rotating-first-tension-pulley.jpg"
-      alt="La première poulie de tension tourne et j'insère la clé de 5mm"
+      alt="La première poulie de tension tourne et j'insère la clé de 5 mm"
     ></clickable-image>
 
     <p>
@@ -880,8 +879,8 @@
       8 mm, qui était (par chance) dans ma caisse à outils.
     </p>
     <p>
-      Ici retour à du classique, tournez dans le sens inverse des aiguilles
-      d'une montre pour desserrer.
+      Ici retour à du classique, tournez dans le sens antihoraire pour
+      desserrer.
     </p>
 
     <div class="flex flex-wrap lg:flex-no-wrap">
@@ -954,7 +953,7 @@
     </p>
     <p>
       Ne retirez pas le petit pin qui se trouve dans votre nouvelle poulie. Il
-      fait le même boulot que notre clé de 5mm.
+      fait le même boulot que notre clé de 5 mm précédemment.
     </p>
     <p>
       Installez la poulie en faisant gaffe à ce que le petit pin qui ressort
@@ -963,11 +962,11 @@
 
     <clickable-image
       src="/images/articles/2020-05-04-is200-timing-belt/40-install-first-tension-pulley.jpg"
-      alt="Ancienne courroie de distribution"
+      alt="Installation de la nouvelle première poulie de tension"
     ></clickable-image>
 
     <p>
-      Alignez le boulon avec le trou, et vissez avec une clé de 8mm. Prenez
+      Alignez le boulon avec le trou, et vissez avec une clé de 8 mm. Prenez
       votre temps, et appliquez de la force en direction du bloc moteur, car ce
       boulon a du mal à commencer à prendre le pas de visse.
     </p>
@@ -989,8 +988,8 @@
     <p>
       Ensuite, alignez la courroie sur la petite poulie de droite. Le jeu entre
       les deux devrait être au minimum. C'est-à-dire qu'après avoir posé la
-      courroie sur les dents de cette poulie, vous devez tirer la courroie vers
-      le haut autant que vous le pouvez.
+      courroie sur les dents de cette poulie, vous devez tirer la partie droite
+      de la courroie vers le haut autant que vous le pouvez.
     </p>
     <p>
       Maintenant, mettez la courroie sur le côté droit de la première poulie de
@@ -1014,9 +1013,7 @@
       alt="L'ordre de mise en place que j'ai utilisé"
     ></clickable-image>
 
-    <h4>
-      Seconde poulie de tension
-    </h4>
+    <h4>Seconde poulie de tension</h4>
     <p>
       Maintenant que la courroie est au bon endroit, vous remarquez qu'il y a
       plein de jeu à droite. Car il faut maintenant réinstaller la seconde
@@ -1053,7 +1050,7 @@
     <h4>Application de la tension</h4>
     <p>Nous voilà tout bon. On peut resserrer la première poulie de tension.</p>
     <p>
-      Tout d'abord, appliquez le bon couple au boulon de 8mm. Le manuel
+      Tout d'abord, appliquez le bon couple au boulon de 8 mm. Le manuel
       recommande 42.5 Nm.
     </p>
 
@@ -1063,11 +1060,11 @@
     ></clickable-image>
 
     <p>
-      Maintenant, vous pouvez retirer le petit pin de 5mm. J'ai appliqué un peu
-      de force dans le sens des aiguilles d'une montre sur le grand trou de 10
-      mm pour pouvoir retirer le pin (de la même manière qu'utilisée lors du
-      desserrage de l'ancienne) puis relâcher la tension gentiment en relâchant
-      ma tension sur la clé de 10mm.
+      Maintenant, vous pouvez retirer le petit pin de 5 mm. J'ai appliqué un peu
+      de force dans le sens horaire sur le grand trou de 10 mm pour pouvoir
+      retirer le pin (de la même manière qu'utilisée lors du desserrage de
+      l'ancienne) puis appliqué la tension en relâchant ma force sur la clé de
+      10 mm.
     </p>
 
     <h4>Test du temps</h4>
@@ -1099,8 +1096,7 @@
     ></clickable-image>
 
     <p>
-      Il est maintenant temps de tourner. Toujours dans le sens des aiguilles
-      d'une montre&nbsp;!
+      Il est maintenant temps de tourner. Toujours dans le sens horaire&nbsp;!
     </p>
 
     <clickable-image
@@ -1151,11 +1147,11 @@
     <div class="flex flex-wrap lg:flex-no-wrap">
       <clickable-image
         src="/images/articles/2020-05-04-is200-timing-belt/48-install-timing-covers-1.jpg"
-        alt="Premier cache réinstallé"
+        alt="Second cache réinstallé"
       ></clickable-image>
       <clickable-image
         src="/images/articles/2020-05-04-is200-timing-belt/49-install-timing-covers-2.jpg"
-        alt="Second cache réinstallé"
+        alt="Premier cache réinstallé"
       ></clickable-image>
     </div>
 
@@ -1205,9 +1201,6 @@
       On va donc à nouveau utiliser l'ancienne courroie auxiliaire. Voici
       comment nous allons la coincer cette fois.
     </p>
-    <p>
-      Serrez un minimum le boulon central de la petite poulie.
-    </p>
 
     <div class="flex flex-wrap lg:flex-no-wrap">
       <clickable-image
@@ -1232,6 +1225,9 @@
     </div>
 
     <p>
+      Serrez un minimum l'écrou central de la petite poulie.
+    </p>
+    <p>
       Cette fois, aucun risque d'endommager le moteur, car pour serrer, on doit
       le faire tourner dans le bon sens. Malheureusement, je n'ai pas assez de
       place pour utiliser mon adaptateur dynamométrique dans cette situation.
@@ -1247,7 +1243,7 @@
 
     <p>
       Une fois que c'est bon, on peut retirer cette courroie pour la dernière
-      fois. Desserrez le boulon de la petite poulie, puis tournez le moteur dans
+      fois. Desserrez l'écrou de la petite poulie, puis tournez le moteur dans
       le mauvais sens le moins possible jusqu'à ce que la tension sur la
       courroie soit assez faible pour la retirer.
     </p>
@@ -1272,7 +1268,7 @@
       là.
     </p>
     <p>
-      Ensuite, serrez les deux boulons (depuis dessous, comme avant) tout en
+      Ensuite, serrez les 2 boulons (depuis dessous, comme avant) tout en
       maintenant à la main une pression vers le bas sur la poulie de gauche.
       Vérifiez que la tension soit à peu près similaire à la tension originale,
       que vous avez tâtée au début.
@@ -1289,16 +1285,16 @@
       restantes.
     </p>
     <p>
-      Serrez les trois boulons avec la tension voulue. Tirez l'alternateur vers
-      le haut pour augmenter la tension.
+      Serrez les 3 boulons avec la tension voulue. Tirez l'alternateur vers le
+      haut pour augmenter la tension.
     </p>
 
     <h4>Auxiliaire 3</h4>
     <p>
       Et finalement, la troisième courroie. Desserrez au maximum la poulie
-      centrale, placez la courroie d'abord sur la grande poulie du bas, puis
-      glissez là gentiment sur la poulie de droite. Ensuite, serrez la longue
-      visse pour augmenter la tension.
+      centrale, placez la courroie d'abord sur la poulie de vilebrequin en bas,
+      puis glissez-là gentiment sur la poulie de droite. Ensuite, serrez le long
+      boulon pour augmenter la tension. Finalement, serrez l'écrou central.
     </p>
 
     <clickable-image
@@ -1326,11 +1322,11 @@
     <div class="flex flex-wrap lg:flex-no-wrap">
       <clickable-image
         src="/images/articles/2020-05-04-is200-timing-belt/58-cable-ties-1.jpg"
-        alt="Troisième vue de l'emmêlement"
+        alt="Les deux premiers colliers de serrages"
       ></clickable-image>
       <clickable-image
         src="/images/articles/2020-05-04-is200-timing-belt/59-cable-ties-2.jpg"
-        alt="Diagramme de l'emmêlement"
+        alt="Le troisième collier de serrage"
       ></clickable-image>
     </div>
 
@@ -1341,7 +1337,10 @@
       votre papier ménage des trous.
     </p>
     <p>Les bougies doivent être serrées à 17.5 Nm.</p>
-    <p>Placez les bobines par-dessus et reconnectez-les.</p>
+    <p>
+      Placez les bobines par-dessus et reconnectez-les. Vous devriez utiliser 6
+      Nm pour les boulons.
+    </p>
     <p>Vous pouvez ensuite remettre le cache.</p>
 
     <h4>Entrée d'air</h4>
@@ -1359,9 +1358,7 @@
       réinstaller le pare-chocs.
     </p>
 
-    <h4>
-      Cache sous moteur
-    </h4>
+    <h4>Cache sous moteur</h4>
     <p>
       Celui-ci, je vous conseille d'attendre la tout toute fin avant de le
       remettre. C'est plus facile de voir si on a des fuites, ou de rapidement
@@ -1401,6 +1398,12 @@
       n'hésitez pas à les poser dans les commentaires. J'y répondrai si je peux.
       Je ne suis cependant pas un expert, et donc comme d'habitude, prenez vos
       propres responsabilités et vérifiez mes dires par vous-même.
+    </p>
+    <p>
+      Vous pouvez maintenant vous abonner au blog par email en utilisant le
+      bouton email rose au fond à gauche du site. J'utiliserai votre email
+      uniquement pour vous envoyer une notification lors d'un nouvel article,
+      pas d'autres conneries.
     </p>
 
     <clickable-image
