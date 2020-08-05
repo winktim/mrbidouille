@@ -63,7 +63,7 @@
         our maximum leverage when using the breaker bar
       </li>
       <li>
-        A torque wrench, goin from 17.5 Nm to 220 Nm (I bought a digital torque
+        A torque wrench, going from 17.5 Nm to 220 Nm (I bought a digital torque
         adapter, but I wouldn't necessarily not recommand it. I'll talk about it
         in the article)
       </li>
@@ -627,7 +627,7 @@
     <p>
       Either with a 17 mm wrench with 12 sides, turn the big white bolt at the
       top, visible on the first picture. This method is not recommended. This
-      bolt seams to wear out very quickly. Tak it easy.
+      bolt seems to wear out very quickly. Tak it easy.
     </p>
     <p>
       Second solution, temporarily reinstall the crankshaft pulley bolt (yep,
@@ -712,7 +712,7 @@
       perfect thing to remove it. I then wiped the product and oil with paper.
     </p>
 
-    <h3 id="8">8. Retirer la courroie principale</h3>
+    <h3 id="8">8. Remove the main belt</h3>
 
     <h4>Second cover</h4>
     <p>
