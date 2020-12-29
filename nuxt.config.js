@@ -1,10 +1,11 @@
-import path from 'path'
-import glob from 'glob-all'
-
 const features = ['es2015', 'es2016', 'IntersectionObserver'].join('%2C')
 
 export default {
-  mode: 'universal',
+  ssr: false,
+  target: 'static',
+  generate: {
+    subFolders: false,
+  },
   /*
    ** Headers of the page
    */
@@ -75,14 +76,10 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-purgecss'],
+  buildModules: ['nuxt-purgecss'],
 
   purgeCSS: {
-    paths: glob.sync([
-      path.join(__dirname, './pages/**/*.vue'),
-      path.join(__dirname, './layouts/**/*.vue'),
-      path.join(__dirname, './components/**/*.vue'),
-    ]),
+    mode: 'webpack',
     whitelist: [
       'nuxt-link-exact-active',
       'page-enter-active',
