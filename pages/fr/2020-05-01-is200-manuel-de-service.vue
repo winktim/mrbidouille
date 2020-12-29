@@ -13,9 +13,7 @@
       Seulement voilà, il est compliqué à trouver. Surtout pour une voiture de
       20 ans.
     </p>
-    <p>
-      J'ai cependant finalement réussi à mettre la main dessus&nbsp;!
-    </p>
+    <p>J'ai cependant finalement réussi à mettre la main dessus&nbsp;!</p>
     <p>
       J'ai dû recomposer les fichiers PDF, car les pages étaient étalées dans
       pleins de fichiers différents, et mélangées avec différents manuels pour

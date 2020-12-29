@@ -71,7 +71,7 @@ export default {
     }
 
     window.hyvorTalkCommentCount = {
-      receiveData: data => {
+      receiveData: (data) => {
         window.hyvorComments.recieved = {
           ...window.hyvorComments.recieved,
           ...data,
@@ -82,7 +82,7 @@ export default {
   mounted() {
     // look for scrolling
     // The debounce function receives our function as a parameter
-    const debounce = fn => {
+    const debounce = (fn) => {
       // This holds the requestAnimationFrame reference, so we can cancel it if we wish
       let frame
 

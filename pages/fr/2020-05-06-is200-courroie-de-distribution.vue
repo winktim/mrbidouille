@@ -35,27 +35,19 @@
         Minimum 2 chandelles (chevalets, peu importe comment vous voulez les
         appeler)
       </li>
-      <li>
-        Un jeu de douilles métrique (10 mm à 22 mm)
-      </li>
+      <li>Un jeu de douilles métrique (10 mm à 22 mm)</li>
       <li>
         Un petit cliquet et un grand, qui vont avec vos douilles. Deux tailles
         aidera à atteindre certains endroits un peu complexe avec un grand
         cliquet
       </li>
-      <li>
-        Des extensions pour vos cliquets
-      </li>
+      <li>Des extensions pour vos cliquets</li>
       <li>
         Une douille pour enlever les bougies d'allumage, de 16 mm sur cette
         voiture. Par exemple&nbsp;: Sealey S12SP10
       </li>
-      <li>
-        Un jeu de clés hexagonales (5 mm, 8 mm &amp; 10 mm)
-      </li>
-      <li>
-        Des pinces à serrer et à couper
-      </li>
+      <li>Un jeu de clés hexagonales (5 mm, 8 mm &amp; 10 mm)</li>
+      <li>Des pinces à serrer et à couper</li>
       <li>
         Un stylo gras de couleur vive (communément appelé stylo indélébile)
       </li>
@@ -74,15 +66,11 @@
         parle dans l'article)
       </li>
       <li>Un marteau et des morceaux de bois (pour amortir l'impact)</li>
-      <li>
-        Des protections pour vos mains et vos yeux (recommandé)
-      </li>
+      <li>Des protections pour vos mains et vos yeux (recommandé)</li>
       <li>
         Un récipient d'au-moins 5L, pour récupérer le liquide de refroidissement
       </li>
-      <li>
-        Un bidon refermable d'au-moins 5L, pour stocker le liquide usagé
-      </li>
+      <li>Un bidon refermable d'au-moins 5L, pour stocker le liquide usagé</li>
       <li>
         Une bâche ou du carton, pour tapisser le sol sous la voiture et rendre
         votre vie plus confortable et propre
@@ -674,9 +662,7 @@
       ></clickable-image>
     </div>
 
-    <p>
-      Pour tourner toute la courroie, il y a deux possibilités.
-    </p>
+    <p>Pour tourner toute la courroie, il y a deux possibilités.</p>
     <p>
       Soit avec une 17 mm à 12 côtés, faire tourner depuis le grand boulon blanc
       visible sur la première photo. Cette méthode est tout de même
@@ -1155,9 +1141,7 @@
       ></clickable-image>
     </div>
 
-    <p>
-      Tout cela est réglé lorsque je mets le premier cache&nbsp;!
-    </p>
+    <p>Tout cela est réglé lorsque je mets le premier cache&nbsp;!</p>
     <p>
       Ce cache étant installé, il ne sera plus retiré pour les 10 prochaines
       années&nbsp;! C'est quand même fou, quand on y pense.
@@ -1224,9 +1208,7 @@
       ></clickable-image>
     </div>
 
-    <p>
-      Serrez un minimum l'écrou central de la petite poulie.
-    </p>
+    <p>Serrez un minimum l'écrou central de la petite poulie.</p>
     <p>
       Cette fois, aucun risque d'endommager le moteur, car pour serrer, on doit
       le faire tourner dans le bon sens. Malheureusement, je n'ai pas assez de

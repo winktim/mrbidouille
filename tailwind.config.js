@@ -42,16 +42,16 @@ module.exports = {
     },
     extend: {
       spacing: {
-        '15': '3.75rem',
+        15: '3.75rem',
       },
       height: {
-        '14': '3.5rem',
-        '50': '12.5rem',
-        '76': '19rem',
-        '100': '25rem',
+        14: '3.5rem',
+        50: '12.5rem',
+        76: '19rem',
+        100: '25rem',
       },
       padding: {
-        '14': '3.5rem',
+        14: '3.5rem',
       },
       margin: {
         '-8': '-2rem',
@@ -113,7 +113,7 @@ module.exports = {
     /**
      * Transform plugin
      */
-    function({ addUtilities, addComponents, e, prefix, config }) {
+    function ({ addUtilities, addComponents, e, prefix, config }) {
       const utilities = _.map(config('theme.transform'), (value, key) => {
         return {
           [`.${e(`translate-x-${key}`)}`]: {
@@ -135,7 +135,7 @@ module.exports = {
     /**
      * Rotate plugin
      */
-    function({ addUtilities, addComponents, e, prefix, config }) {
+    function ({ addUtilities, addComponents, e, prefix, config }) {
       const utilities = _.map(config('theme.rotation'), (value, key) => {
         return {
           [`.${e(`rotate-${key}`)}`]: {
@@ -151,7 +151,7 @@ module.exports = {
     /**
      * Transition plugin
      */
-    function({ addUtilities, addComponents, e, prefix, config }) {
+    function ({ addUtilities, addComponents, e, prefix, config }) {
       const utilities = _.map(
         config('theme.transitionProperties'),
         (propertyValue, propertyName) => {
@@ -175,7 +175,7 @@ module.exports = {
     /**
      * Lighten & Darken utility
      */
-    function({ addUtilities, addComponents, e, prefix, config }) {
+    function ({ addUtilities, addComponents, e, prefix, config }) {
       const utilities = _.map(
         config('theme.colorVariations'),
         (variationValue, variationName) => {
@@ -197,7 +197,7 @@ module.exports = {
     /**
      * Flip utility
      */
-    function({ addUtilities, addComponents, e, prefix, config }) {
+    function ({ addUtilities, addComponents, e, prefix, config }) {
       const utilities = [
         {
           [`.${e(`flip-x`)}`]: {

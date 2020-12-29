@@ -41,10 +41,8 @@
     </section>
     <!-- Matomo Image Tracker-->
     <img
-      :src="
-        `https://analytics.naito.one/matomo.php?idsite=2&amp;rec=1&amp;action_name=Index&amp;url=https://mrbidouille.ch/&amp;rand=${random}`
-      "
-      style="width:1px;height:1px;border:0"
+      :src="`https://analytics.naito.one/matomo.php?idsite=2&amp;rec=1&amp;action_name=Index&amp;url=https://mrbidouille.ch/&amp;rand=${random}`"
+      style="width: 1px; height: 1px; border: 0"
       alt
     />
     <!-- End Matomo -->

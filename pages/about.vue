@@ -7,7 +7,7 @@
       </h2>
       <div
         class="bg-cover bg-center w-full h-50 my-4 md:my-8 rounded-md"
-        style="background-image: url(/images/engine-bay.jpg);"
+        style="background-image: url(/images/engine-bay.jpg)"
       ></div>
 
       <div
@@ -167,10 +167,8 @@
     </section>
     <!-- Matomo Image Tracker-->
     <img
-      :src="
-        `https://analytics.naito.one/matomo.php?idsite=2&amp;rec=1&amp;action_name=About&amp;url=https://mrbidouille.ch/about&amp;rand=${random}`
-      "
-      style="width:1px;height:1px;border:0"
+      :src="`https://analytics.naito.one/matomo.php?idsite=2&amp;rec=1&amp;action_name=About&amp;url=https://mrbidouille.ch/about&amp;rand=${random}`"
+      style="width: 1px; height: 1px; border: 0"
       alt
     />
     <!-- End Matomo -->

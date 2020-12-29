@@ -30,34 +30,20 @@
         A jack (you could use the one included with the car, but I would
         recommend you invest in a good jack. You'll save a lot of time)
       </li>
-      <li>
-        At least 2 jack stands
-      </li>
-      <li>
-        A set of metric sockets (10 mm to 22 mm)
-      </li>
+      <li>At least 2 jack stands</li>
+      <li>A set of metric sockets (10 mm to 22 mm)</li>
       <li>
         A small ratchet and a big one, compatible with your sockets. Having 2
         sizes will help accessing certain bolts
       </li>
-      <li>
-        Extensions for your ratchets
-      </li>
+      <li>Extensions for your ratchets</li>
       <li>
         A spark plug socket, 16 mm for this car. For example: Sealey S12SP10
       </li>
-      <li>
-        A set of hex keys (5 mm, 8 mm &amp; 10 mm)
-      </li>
-      <li>
-        Pliers to clamp and cut
-      </li>
-      <li>
-        A thick pen of visible color (a marker)
-      </li>
-      <li>
-        A breaker bar
-      </li>
+      <li>A set of hex keys (5 mm, 8 mm &amp; 10 mm)</li>
+      <li>Pliers to clamp and cut</li>
+      <li>A thick pen of visible color (a marker)</li>
+      <li>A breaker bar</li>
       <li>
         An extension. It could be a long tube of scrap metal. It will increase
         our maximum leverage when using the breaker bar
@@ -68,15 +54,9 @@
         in the article)
       </li>
       <li>A hammer and some wooden blocks (to soften the impact)</li>
-      <li>
-        Protections for your hands and eyes (recommanded)
-      </li>
-      <li>
-        A container of at least 5L, to recover the coolant
-      </li>
-      <li>
-        A closable container of at least 5L, to store the used coolant
-      </li>
+      <li>Protections for your hands and eyes (recommanded)</li>
+      <li>A container of at least 5L, to recover the coolant</li>
+      <li>A closable container of at least 5L, to store the used coolant</li>
       <li>
         A tarpaulin or cardboard, to cover the ground under the car and make
         your life more comfortable and cleaner
@@ -221,9 +201,7 @@
       start flowing. Later, you can open the radiator cap to increase the flow.
       Then even later, you can remove the plug.
     </p>
-    <p>
-      It is going to take some time for the 4L - 5L of coolant to come out.
-    </p>
+    <p>It is going to take some time for the 4L - 5L of coolant to come out.</p>
 
     <h4>Front bumper</h4>
     <p>
@@ -316,18 +294,14 @@
       To remove pressure of of the cylinders, we have to remove the spark plugs.
       To get access to them, we need to remove the whole air box.
     </p>
-    <p>
-      There are 3 10 mm bolts around the main box.
-    </p>
+    <p>There are 3 10 mm bolts around the main box.</p>
 
     <clickable-image
       src="/images/articles/2020-05-06-is200-timing-belt/08-air-box.jpg"
       alt="Main air box"
     ></clickable-image>
 
-    <p>
-      I placed paper in the throttle body to prevent crap from falling in.
-    </p>
+    <p>I placed paper in the throttle body to prevent crap from falling in.</p>
 
     <h3 id="3">3. Remove the spark plugs</h3>
     <p>
@@ -383,9 +357,7 @@
       We are going to remove the auxiliaries starting from the one closest to
       the front of the car, moving to the back.
     </p>
-    <p>
-      All the bolts we are going to encounter are either 12 mm or 14 mm.
-    </p>
+    <p>All the bolts we are going to encounter are either 12 mm or 14 mm.</p>
     <p>
       I suggest you lightly press on each belt to get a feel for it's tension.
       It will help later when we tighten the new ones.
@@ -621,9 +593,7 @@
       ></clickable-image>
     </div>
 
-    <p>
-      To turn the crankshaft, there are two methods.
-    </p>
+    <p>To turn the crankshaft, there are two methods.</p>
     <p>
       Either with a 17 mm wrench with 12 sides, turn the big white bolt at the
       top, visible on the first picture. This method is not recommended. This
@@ -696,9 +666,7 @@
       a while, I realised it was slowly moving towards me. The amount of play
       never increased, but it moved closer and closer to the border.
     </p>
-    <p>
-      Be careful when you'll finally get it out. It is quite heavy !
-    </p>
+    <p>Be careful when you'll finally get it out. It is quite heavy !</p>
 
     <clickable-image
       src="/images/articles/2020-05-06-is200-timing-belt/30-crankshaft-pulley-removed.jpg"
@@ -809,9 +777,7 @@
       my ratchet, as this bolt is quite tight). I then switched to my ratchet
       with an 8 mm hexagonal socket that (luckly) was in my toolbox.
     </p>
-    <p>
-      Back to classics here, turn anticlockwise to untighten.
-    </p>
+    <p>Back to classics here, turn anticlockwise to untighten.</p>
 
     <div class="flex flex-wrap lg:flex-no-wrap">
       <clickable-image
@@ -873,9 +839,7 @@
     </p>
 
     <h4>First tensioner pulley</h4>
-    <p>
-      The first thing to do is installing the new first tensioner pulley.
-    </p>
+    <p>The first thing to do is installing the new first tensioner pulley.</p>
     <p>
       Do not remove the little pin in your new pulley. It does the same job as
       our 5 mm key previously.
@@ -971,9 +935,7 @@
 
     <h4>Applying tension</h4>
     <p>We're all good. We can tighten the first tensioner pulley.</p>
-    <p>
-      First, torque down the 8 mm bolt. The manual recommends 42.5 Nm.
-    </p>
+    <p>First, torque down the 8 mm bolt. The manual recommends 42.5 Nm.</p>
 
     <clickable-image
       src="/images/articles/2020-05-06-is200-timing-belt/44-torque-down-first-tension-pulley.jpg"
@@ -1013,9 +975,7 @@
       alt=" Resintalling the crankshaft pulley bolt to turn the engine"
     ></clickable-image>
 
-    <p>
-      It's now time to turn. Always clockwise !
-    </p>
+    <p>It's now time to turn. Always clockwise !</p>
 
     <clickable-image
       src="/images/articles/2020-05-06-is200-timing-belt/46-testing-timing.jpg"
@@ -1072,9 +1032,7 @@
       ></clickable-image>
     </div>
 
-    <p>
-      All that was fixed when I put the first cover back on !
-    </p>
+    <p>All that was fixed when I put the first cover back on !</p>
     <p>
       This cover being installed, it won't be removed again for the next 10
       years ! That's crazy when you think about it.
@@ -1107,9 +1065,7 @@
       If you are a maniac and you realigned precisely before removing the bolt,
       then the notch should be perfectly aligned.
     </p>
-    <p>
-      Now the bolt. But we are going to need to torque it to 220 Nm !
-    </p>
+    <p>Now the bolt. But we are going to need to torque it to 220 Nm !</p>
     <p>
       We are again going to use the old auxiliary belt. Here is how are going to
       tangle it this time.
@@ -1137,9 +1093,7 @@
       ></clickable-image>
     </div>
 
-    <p>
-      Tighten a minimum the center pully nut.
-    </p>
+    <p>Tighten a minimum the center pully nut.</p>
     <p>
       This time, no risk of damaging the engine, because to tighten, we are
       rotating the engine in the correct direction anyways. Sadly, I don't have

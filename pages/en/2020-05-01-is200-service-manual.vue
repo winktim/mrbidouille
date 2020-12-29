@@ -12,9 +12,7 @@
       The service manual is an essential tool to service your car. But the
       problem is that it can be hard to find. Especially for a 20 years old car.
     </p>
-    <p>
-      But I finally got my hands on it!
-    </p>
+    <p>But I finally got my hands on it!</p>
     <p>
       I had to recreate the PDF files, because the pages were scattered in a
       number of files, mixed in with a few pages about the IS300 and the

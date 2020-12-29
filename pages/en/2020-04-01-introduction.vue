@@ -162,9 +162,7 @@
       channel will contain short clips used in my articles.
     </p>
     <p><br /></p>
-    <p>
-      On that note, I'll end this first article. I'll see you soon!
-    </p>
+    <p>On that note, I'll end this first article. I'll see you soon!</p>
     <p><br /></p>
     <p>
       Bidouille

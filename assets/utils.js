@@ -15,7 +15,7 @@ export function filterArticles(articles, search) {
   const exactMatches = []
   const otherMatches = []
 
-  articles.forEach(article => {
+  articles.forEach((article) => {
     const lookIn = [
       article.title.toLowerCase(),
       article.summary.toLowerCase(),

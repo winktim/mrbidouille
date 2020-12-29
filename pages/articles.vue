@@ -131,10 +131,8 @@
     </section>
     <!-- Matomo Image Tracker-->
     <img
-      :src="
-        `https://analytics.naito.one/matomo.php?idsite=2&amp;rec=1&amp;action_name=Articles&amp;url=https://mrbidouille.ch/articles;&amp;rand=${random}`
-      "
-      style="width:1px;height:1px;border:0"
+      :src="`https://analytics.naito.one/matomo.php?idsite=2&amp;rec=1&amp;action_name=Articles&amp;url=https://mrbidouille.ch/articles;&amp;rand=${random}`"
+      style="width: 1px; height: 1px; border: 0"
       alt
     />
     <!-- End Matomo -->
