@@ -197,7 +197,7 @@
 
     <h4>Engine undercover</h4>
     <p>
-      The is an cover underneath the whole front of the car. Remove it. It's the
+      The is a cover underneath the whole front of the car. Remove it. It's the
       first thing to remove everytime you work in the front of the car, because
       it gives access to the engine bay from underneath. To remove it, there is
       a certain amount of 10 mm bolts to remove. Take your time and find them
