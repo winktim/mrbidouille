@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fr/2020-04-01-introduction", {data:[{}],fetch:[],mutations:void 0});
