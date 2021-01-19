@@ -500,9 +500,9 @@
     <p>
       You can now remove tension from the belt, by turning the engine clockwise.
       To do this, since we juste removed the bolt that allowed use to turn the
-      engine, I put my breaker bar on the small left pulley (see picture) et I
-      gently turned to the right. I had to old the belt by hand, because it was
-      still splipping a little.
+      engine, I put my breaker bar on the small left pulley (see picture) and I
+      gently turned to the right. I had to hold the belt by hand, because it was
+      still slipping a little.
     </p>
 
     <clickable-image
