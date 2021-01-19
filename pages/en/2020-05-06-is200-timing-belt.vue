@@ -755,7 +755,7 @@
     <p>
       When you turn the 10 mm key, the hole becomes accessible, and you just
       have to gently push the 5 mm key inside. After that, if you release
-      pressure on the 10 mm key, the poulley won't come back in it's tensionned
+      pressure on the 10 mm key, the pulley won't come back in it's tensionned
       state.
     </p>
 
