@@ -773,9 +773,9 @@
       hole.
     </p>
     <p>
-      I started with a solid key and an improvied extension (by fear of breaking
-      my ratchet, as this bolt is quite tight). I then switched to my ratchet
-      with an 8 mm hexagonal socket that (luckly) was in my toolbox.
+      I started with a solid key and an improvised extension (by fear of
+      breaking my ratchet, as this bolt is quite tight). I then switched to my
+      ratchet with an 8 mm hexagonal socket that (luckly) was in my toolbox.
     </p>
     <p>Back to classics here, turn anticlockwise to untighten.</p>
 
