@@ -1047,7 +1047,7 @@
       Time to reinstall the crankshaft pulley and the bolt. The pulley slides on
       super easily. Makes you wonder why it was so hard to get it out. If it
       doesn't seem to be all the way in, hit it gently with a hammer and a big
-      block of wood to spread the force et not damage it.
+      block of wood to spread the force and not damage it.
     </p>
 
     <clickable-image
